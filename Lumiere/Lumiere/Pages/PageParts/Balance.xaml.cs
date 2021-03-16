@@ -15,6 +15,13 @@ namespace Lumiere.Pages.PageParts
         public Balance()
         {
             InitializeComponent();
+
+            var assembly = typeof(Balance);
+
+            imgCashin.Source = ImageSource.FromResource("Lumiere.Assets.Images.Cash-in.png", assembly);
+            imgBuyLoad.Source = ImageSource.FromResource("Lumiere.Assets.Images.Buy-load.png", assembly);
+            imgPayBills.Source = ImageSource.FromResource("Lumiere.Assets.Images.Pay-Bills.png", assembly);
+            imgSendMoney.Source = ImageSource.FromResource("Lumiere.Assets.Images.Send-money.png", assembly);
         }
     }
 }

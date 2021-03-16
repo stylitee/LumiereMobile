@@ -3,21 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lumiere.Pages.PageParts.Balance">
     <ContentPage.Content>
-        <Grid>
+        <Grid ColumnSpacing="0" RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="120" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="400" />
             </Grid.ColumnDefinitions>
-            <BoxView BackgroundColor="Red" Grid.Column="0" Grid.Row="0" />
-            <Label x:Name="lblBalance" 
-                   Text="₱78.00"
+            <BoxView BackgroundColor="Black" Grid.Column="0" Grid.Row="0" />
+            <BoxView BackgroundColor="#ffac41" Grid.Column="0" Grid.Row="1" />
+            <StackLayout>
+                <Label x:Name="lblBalance" 
+                   VerticalOptions="Center"
+                   TextColor="#ffac41"
+                   Text="₱ 78.00"
                    FontSize="40"
-                   Margin="115,20,0,0"/>
-            <Label Text="Available Balance"
+                   Margin="110,20,0,0"/>
+                <Label TextColor="#ffac41"
+                   VerticalOptions="Center"    
+                   Text="Available Balance"
                    FontSize="10"
-                   Margin="149,75,0,0"/>
+                   Margin="150,0,0,0"/>
+                <Image x:Name="imgCashin"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                   Margin="38,40,0,0"
+                   HeightRequest="40"
+                   WidthRequest="30"/>
+                <Label Text="Cash-In"
+                       Margin="27,0,0,0"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                       TextColor="Black"/>
+                <Image x:Name="imgSendMoney"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                   Margin="38,80,0,0"
+                   HeightRequest="40"
+                   WidthRequest="30"/>
+                <Image x:Name="imgPayBills"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                   Margin="38,120,0,0"
+                   HeightRequest="40"
+                   WidthRequest="30"/>
+                <Image x:Name="imgBuyLoad"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Start"
+                   Margin="38,160,0,0"
+                   HeightRequest="40"
+                   WidthRequest="30"/>
+            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
