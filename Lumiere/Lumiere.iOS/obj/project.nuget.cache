@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nmf4n6jTC3/I4uUUcFJWBD9kGdGrnu27cVFSQTs7CkkeOZJWk00Cws2h/nqxKyb6OoKETwkowsXy53lC5nPKgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere.iOS\\Lumiere.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\balon\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

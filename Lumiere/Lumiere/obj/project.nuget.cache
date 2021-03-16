@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "W/DjocfBJ3Q/VWwLGTIhUvG/VS40j5wFBYYyK3rETSUDKTcu/tGiGPIBzmOkY6jXacLKBMd/RRB+9NnxjhMmdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\balon\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
