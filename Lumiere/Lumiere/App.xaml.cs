@@ -10,8 +10,8 @@ namespace Lumiere
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new Home());
+            MainPage = new Home();
+            
         }
 
         protected override void OnStart()

@@ -3,12 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lumiere.Pages.Home"
             xmlns:tab="clr-namespace:Lumiere.Pages.tabbed"
+            Style="{StaticResource Homepage}"
              xmlns:pages="clr-namespace:Lumiere.Pages">
   <FlyoutPage.Flyout>
     <pages:HomeFlyout x:Name="FlyoutPage" />
   </FlyoutPage.Flyout>
   <FlyoutPage.Detail>
-    <NavigationPage>
+    <NavigationPage BackgroundColor="Black">
       <x:Arguments>
         <tab:MainTabbedPage />
       </x:Arguments>
