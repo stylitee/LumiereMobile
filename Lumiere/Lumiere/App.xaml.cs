@@ -11,7 +11,7 @@ namespace Lumiere
         {
             InitializeComponent();
 
-            MainPage = new Home();
+            MainPage = new NavigationPage(new Home());
         }
 
         protected override void OnStart()

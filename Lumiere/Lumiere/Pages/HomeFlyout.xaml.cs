@@ -33,7 +33,7 @@ namespace Lumiere.Pages
             {
                 MenuItems = new ObservableCollection<HomeFlyoutMenuItem>(new[]
                 {
-                    new HomeFlyoutMenuItem { Id = 0, Title = "Page 1" },
+                    new HomeFlyoutMenuItem { Id = 0, Title = "Page 1"},
                     new HomeFlyoutMenuItem { Id = 1, Title = "Page 2" },
                     new HomeFlyoutMenuItem { Id = 2, Title = "Page 3" },
                     new HomeFlyoutMenuItem { Id = 3, Title = "Page 4" },

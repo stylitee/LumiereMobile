@@ -2,6 +2,7 @@
 <FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lumiere.Pages.Home"
+            xmlns:tab="clr-namespace:Lumiere.Pages.tabbed"
              xmlns:pages="clr-namespace:Lumiere.Pages">
   <FlyoutPage.Flyout>
     <pages:HomeFlyout x:Name="FlyoutPage" />
@@ -9,7 +10,7 @@
   <FlyoutPage.Detail>
     <NavigationPage>
       <x:Arguments>
-        <pages:HomeDetail />
+        <tab:MainTabbedPage />
       </x:Arguments>
     </NavigationPage>
   </FlyoutPage.Detail>

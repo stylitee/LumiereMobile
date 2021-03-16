@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumiere.Pages.PageParts.Balance">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="120" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400" />
+            </Grid.ColumnDefinitions>
+            <BoxView BackgroundColor="Red" Grid.Column="0" Grid.Row="0" />
+            <Label x:Name="lblBalance" 
+                   Text="₱78.00"
+                   FontSize="40"
+                   Margin="115,20,0,0"/>
+            <Label Text="Available Balance"
+                   FontSize="10"
+                   Margin="149,75,0,0"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W/DjocfBJ3Q/VWwLGTIhUvG/VS40j5wFBYYyK3rETSUDKTcu/tGiGPIBzmOkY6jXacLKBMd/RRB+9NnxjhMmdQ==",
+  "dgSpecHash": "P5367ATFL69d0lrKCbJKcFzzWawdpIalYlfZeA7avOKGFraMJYvS0N6VbWB2PR4ZPL+KyP6Bl5eKsXA0eJJrlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj",
+  "projectFilePath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\balon\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

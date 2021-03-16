@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj",
+      "projectUniqueName": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj",
       "projectName": "Lumiere",
-      "projectPath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj",
+      "projectPath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj",
       "packagesPath": "C:\\Users\\balon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\obj\\",
+      "outputPath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

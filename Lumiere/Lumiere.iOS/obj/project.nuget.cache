@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nmf4n6jTC3/I4uUUcFJWBD9kGdGrnu27cVFSQTs7CkkeOZJWk00Cws2h/nqxKyb6OoKETwkowsXy53lC5nPKgQ==",
+  "dgSpecHash": "zJuwRh4wHhPdk5FVOP6VVwS5OmUIOwRiX5hvt8mx+krs+bauMlV6Ew6aq6swjwaD2atnIltKZDtiFf0j7eoH2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere.iOS\\Lumiere.iOS.csproj",
+  "projectFilePath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.iOS\\Lumiere.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\balon\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

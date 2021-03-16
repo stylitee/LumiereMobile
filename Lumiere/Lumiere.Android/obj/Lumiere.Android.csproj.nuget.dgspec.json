@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj": {}
+    "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj": {
+    "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj",
+        "projectUniqueName": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj",
         "projectName": "Lumiere.Android",
-        "projectPath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj",
+        "projectPath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj",
         "packagesPath": "C:\\Users\\balon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere.Android\\obj\\",
+        "outputPath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj": {
-                "projectPath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj"
+              "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj": {
+                "projectPath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj": {
+    "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj",
+        "projectUniqueName": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj",
         "projectName": "Lumiere",
-        "projectPath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\Lumiere.csproj",
+        "projectPath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\Lumiere.csproj",
         "packagesPath": "C:\\Users\\balon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\balon\\source\\repos\\Lumiere\\Lumiere\\Lumiere\\obj\\",
+        "outputPath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
