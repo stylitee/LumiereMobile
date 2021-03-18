@@ -24,36 +24,67 @@
                    Text="Available Balance"
                    FontSize="10"
                    Margin="150,0,0,0"/>
-                <Image x:Name="imgCashin"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                   Margin="38,40,0,0"
-                   HeightRequest="40"
-                   WidthRequest="30"/>
-                <Label Text="Cash-In"
-                       Margin="27,0,0,0"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                       TextColor="Black"/>
-                <Image x:Name="imgSendMoney"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                   Margin="38,80,0,0"
-                   HeightRequest="40"
-                   WidthRequest="30"/>
-                <Image x:Name="imgPayBills"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                   Margin="38,120,0,0"
-                   HeightRequest="40"
-                   WidthRequest="30"/>
-                <Image x:Name="imgBuyLoad"
-                       VerticalOptions="Start"
-                       HorizontalOptions="Start"
-                   Margin="38,160,0,0"
-                   HeightRequest="40"
-                   WidthRequest="30"/>
+                <StackLayout Orientation="Horizontal">
+
+                    <StackLayout Margin="0,50,0,0">
+                        <Image  x:Name="imgCashin"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="33,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text="Cash-In"
+                                Margin="20,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,50,0,0">
+                        <Image  x:Name="imgSendMoney"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="40,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text="Send Money"
+                                Margin="15,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,50,0,0">
+                        <Image  x:Name="imgPayBills"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="40,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text="Pay Bills"
+                                Margin="15,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout  Margin="0,50,0,0">
+                        <Image  x:Name="imgBuyLoad"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="40,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text="Buy Load"
+                                Margin="15,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+
+                </StackLayout>
+                
             </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
+
+
+
