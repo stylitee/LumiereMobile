@@ -4,153 +4,71 @@
              x:Class="Lumiere.Pages.PageParts.Balance">
 
     <ContentPage.Content>
-        <Grid ColumnSpacing="0" RowSpacing="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="120" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="400" />
-            </Grid.ColumnDefinitions>
-            <BoxView BackgroundColor="#4765FF" Grid.Column="0" Grid.Row="0" />
-            <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="1" />
-            <StackLayout>
-                <Label x:Name="lblBalance" 
-                   VerticalOptions="Center"
+        <StackLayout>
+            <StackLayout VerticalOptions="Start"  HeightRequest="110" BackgroundColor="#4765FF">
+                <Label Text="₱78.00" 
+                   HorizontalOptions="Center" 
+                   Margin="0,20,0,0"
+                   FontSize="30"
+                   TextColor="White"/>
+                <Label Text="Available Balance" 
+                   Margin="0,0,0,0"
+                   HorizontalTextAlignment="Center"
                    TextColor="White"
-                   Text="₱ 78.00"
-                   FontSize="40"
-                   Margin="110,20,0,0"/>
-                <Label TextColor="White"
-                   VerticalOptions="Center"    
-                   Text="Available Balance"
-                   FontSize="10"
-                   Margin="150,0,0,0"/>
-                <StackLayout Orientation="Horizontal">
-                    <StackLayout Margin="0,50,0,0">
-                        <Image  x:Name="imgCashin"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="33,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30" >
-                        </Image>
-                        <Label  Text="Cash-In"
-                                Margin="20,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black">
-                        </Label>
-                    </StackLayout>
-
-                    <StackLayout Margin="0,50,0,0">
-                        <Image  x:Name="imgSendMoney"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="50,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30"/>
-                        <Label  Text="Send Money"
-                                Margin="23,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black"/>
-                    </StackLayout>
-
-                    <StackLayout Margin="0,50,0,0">
-                        <Image  x:Name="imgPayBills"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="35,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30"/>
-                        <Label  Text="Pay Bills"
-                                Margin="20,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black"/>
-                    </StackLayout>
-
-                    <StackLayout  Margin="0,50,0,0">
-                        <Image  x:Name="imgBuyLoad"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="38,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30"/>
-                        <Label  Text="Buy Load"
-                                Margin="23,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black"/>
-                    </StackLayout>
-
+                   FontSize="10"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                
+                <StackLayout Margin="0,20,0,0">
+                    <Image x:Name="imgCashin" 
+                       HeightRequest="30"
+                       Margin="25,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Cash In"
+                           Margin="20,0,0,0"/>
                 </StackLayout>
 
+                <StackLayout Margin="0,20,0,0">
+                    <Image x:Name="imgSendMoney" 
+                       HeightRequest="30"
+                       Margin="25,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Send Money"
+                           Margin="20,0,0,0"/>
+                </StackLayout>
 
+                <StackLayout Margin="0,20,0,0">
+                    <Image x:Name="imgPayBills" 
+                       HeightRequest="30"
+                       Margin="25,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Pay Bills"
+                           Margin="20,0,0,0"/>
+                </StackLayout>
 
-
-
-
-                <StackLayout Orientation="Horizontal" >
-                <StackLayout Margin="0,50,0,0">
-                        <Image  x:Name="imgBankTransfer"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="35,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30"/>
-                        <Label  Text=" Bank Tranfer"
-                                Margin="8,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black"/>
-                    </StackLayout>
-
-                    <StackLayout Margin="0,50,0,0">
-                        <Image  x:Name="imgGamingPins"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="26,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30"/>
-                        <Label  Text="G-Pins"
-                                Margin="21,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black"/>
-                    </StackLayout>
-
-                    <StackLayout Margin="0,50,0,0">
-                        <Image  x:Name="imgPayQR"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="48,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30"/>
-                        <Label  Text="Pay QR"
-                                Margin="38,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black"/>
-                    </StackLayout>
-
-                    <StackLayout  Margin="0,50,0,0">
-                        <Image  x:Name="imgShowMore"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                Margin="38,0,0,0"
-                                HeightRequest="40"
-                                WidthRequest="30"/>
-                        <Label  Text="Buy Load"
-                                Margin="23,0,0,0"
-                                VerticalOptions="Start"
-                                HorizontalOptions="Start"
-                                TextColor="Black"/>
-                    </StackLayout>
+                <StackLayout Margin="0,20,0,0">
+                    <Image x:Name="imgBuyLoad" 
+                       HeightRequest="30"
+                       Margin="25,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Buy Load"
+                           Margin="20,0,0,0"/>
                 </StackLayout>
 
             </StackLayout>
-        </Grid>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
 
