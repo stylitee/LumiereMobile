@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lumiere.Pages.PageFunctions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace Lumiere.Pages.PageParts
         public Balance()
         {
             InitializeComponent();
-
+            
             var assembly = typeof(Balance);
 
             //firstpart
@@ -29,5 +30,7 @@ namespace Lumiere.Pages.PageParts
             imgPayQR.Source = ImageSource.FromResource("Lumiere.Assets.Images.qr-code.png", assembly);
             imgShowMore.Source = ImageSource.FromResource("Lumiere.Assets.Images.ellipsis.png", assembly);
         }
+
+        
     }
 }

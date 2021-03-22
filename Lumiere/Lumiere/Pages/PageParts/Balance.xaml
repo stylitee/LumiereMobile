@@ -26,19 +26,20 @@
                    FontSize="10"
                    Margin="150,0,0,0"/>
                 <StackLayout Orientation="Horizontal">
-
                     <StackLayout Margin="0,50,0,0">
                         <Image  x:Name="imgCashin"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
                                 Margin="33,0,0,0"
                                 HeightRequest="40"
-                                WidthRequest="30"/>
+                                WidthRequest="30" >
+                        </Image>
                         <Label  Text="Cash-In"
                                 Margin="20,0,0,0"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
-                                TextColor="Black"/>
+                                TextColor="Black">
+                        </Label>
                     </StackLayout>
 
                     <StackLayout Margin="0,50,0,0">

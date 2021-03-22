@@ -9,7 +9,11 @@
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
-            <Label Text="iyo nani"/>
+            <Label Text="                          Lumiere" TextColor="White">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                </Label.GestureRecognizers>
+            </Label>
         </StackLayout>
     </NavigationPage.TitleView>
     

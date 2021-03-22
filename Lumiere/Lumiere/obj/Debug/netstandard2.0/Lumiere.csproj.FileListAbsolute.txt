@@ -16,3 +16,4 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstan
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageParts\Balance.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageParts\Credit.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\tabbed\MainTabbedPage.xaml.g.cs
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageFunctions\CashinPage.xaml.g.cs
