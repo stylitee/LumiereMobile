@@ -66,8 +66,71 @@
                     <Label Text="Buy Load"
                            Margin="20,0,0,0"/>
                 </StackLayout>
+                
+                
+                
+                
+                
+                
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+
+                <StackLayout Margin="-10,20,0,0">
+                    <Image x:Name="imgBankTransfer" 
+                       HeightRequest="30"
+                       Margin="10,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Bank Transfer"
+                           Margin="20,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0">
+                    <Image x:Name="imgGamingPins" 
+                       HeightRequest="30"
+                       Margin="-19,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Gaming Pins"
+                           Margin="0,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0">
+                    <Image x:Name="imgPayQR" 
+                       HeightRequest="30"
+                       Margin="25,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Pay QR"
+                           Margin="15,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout Margin="0,20,0,0">
+                    <Image x:Name="imgShowMore" 
+                       HeightRequest="30"
+                       Margin="20,0,0,0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Show More"
+                           Margin="20,0,0,0"/>
+                </StackLayout>
 
             </StackLayout>
+            <Frame CornerRadius="10"  
+                   OutlineColor="Red" 
+                   Padding="0">
+                <StackLayout>
+                    <Label Text="try lang"/>
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

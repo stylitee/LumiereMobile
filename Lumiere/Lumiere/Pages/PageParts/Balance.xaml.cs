@@ -25,11 +25,11 @@ namespace Lumiere.Pages.PageParts
             imgBuyLoad.Source = ImageSource.FromResource("Lumiere.Assets.Images.Buy-load.png", assembly);
             imgPayBills.Source = ImageSource.FromResource("Lumiere.Assets.Images.Pay-Bills.png", assembly);
             imgSendMoney.Source = ImageSource.FromResource("Lumiere.Assets.Images.Send-money.png", assembly);
-            /*secondpart
+            
             imgBankTransfer.Source = ImageSource.FromResource("Lumiere.Assets.Images.Bank-Transfer.png", assembly);
             imgGamingPins.Source = ImageSource.FromResource("Lumiere.Assets.Images.game.png", assembly);
             imgPayQR.Source = ImageSource.FromResource("Lumiere.Assets.Images.qr-code.png", assembly);
-            imgShowMore.Source = ImageSource.FromResource("Lumiere.Assets.Images.ellipsis.png", assembly);*/
+            imgShowMore.Source = ImageSource.FromResource("Lumiere.Assets.Images.ellipsis.png", assembly);
         }
 
 
@@ -53,6 +53,21 @@ namespace Lumiere.Pages.PageParts
         private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
         {
             //buyload
+        }
+
+        private void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
+        {
+            //banktransfer
+        }
+
+        private void TapGestureRecognizer_Tapped_5(object sender, EventArgs e)
+        {
+            //gamingpins
+        }
+
+        private void TapGestureRecognizer_Tapped_6(object sender, EventArgs e)
+        {
+            //payQR
         }
     }
 }
