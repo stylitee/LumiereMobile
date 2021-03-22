@@ -4,14 +4,15 @@
              x:Class="Lumiere.Pages.Home"
             xmlns:tab="clr-namespace:Lumiere.Pages.tabbed"
              xmlns:pages="clr-namespace:Lumiere.Pages">
-  <FlyoutPage.Flyout>
+    <FlyoutPage.Flyout>
     <pages:HomeFlyout x:Name="FlyoutPage" />
   </FlyoutPage.Flyout>
   <FlyoutPage.Detail>
-        <NavigationPage BarBackground="black" >
-      <x:Arguments>
+        <NavigationPage BarBackground="#4765FF" >
+            <x:Arguments>
         <tab:MainTabbedPage />
       </x:Arguments>
     </NavigationPage>
+      
   </FlyoutPage.Detail>
 </FlyoutPage>

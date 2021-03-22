@@ -3,10 +3,16 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:tab="clr-namespace:Lumiere.Pages.PageParts"
             x:Class="Lumiere.Pages.tabbed.MainTabbedPage"
-            SelectedTabColor="#FF1E56"
-            UnselectedTabColor="#FF1E56"
-            BarBackgroundColor="#000000">
+            SelectedTabColor="White"
+            UnselectedTabColor="#C4C4C4"
+            BarBackgroundColor="#4765FF">
 
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="iyo nani"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
     <tab:Balance Title="Balance" />
     <tab:Credit  Title="Credit" />
 </TabbedPage>

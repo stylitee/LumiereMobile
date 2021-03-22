@@ -14,7 +14,10 @@
     <None Remove="Assets\Images\Bank-Transfer.png" />
     <None Remove="Assets\Images\Buy-load.png" />
     <None Remove="Assets\Images\Cash-in.png" />
+    <None Remove="Assets\Images\ellipsis.png" />
+    <None Remove="Assets\Images\game.png" />
     <None Remove="Assets\Images\Pay-Bills.png" />
+    <None Remove="Assets\Images\qr-code.png" />
     <None Remove="Assets\Images\Send-money.png" />
   </ItemGroup>
 
@@ -22,7 +25,10 @@
     <EmbeddedResource Include="Assets\Images\Bank-Transfer.png" />
     <EmbeddedResource Include="Assets\Images\Buy-load.png" />
     <EmbeddedResource Include="Assets\Images\Cash-in.png" />
+    <EmbeddedResource Include="Assets\Images\ellipsis.png" />
+    <EmbeddedResource Include="Assets\Images\game.png" />
     <EmbeddedResource Include="Assets\Images\Pay-Bills.png" />
+    <EmbeddedResource Include="Assets\Images\qr-code.png" />
     <EmbeddedResource Include="Assets\Images\Send-money.png" />
   </ItemGroup>
 

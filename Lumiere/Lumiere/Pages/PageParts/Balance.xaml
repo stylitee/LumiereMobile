@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lumiere.Pages.PageParts.Balance">
+
     <ContentPage.Content>
         <Grid ColumnSpacing="0" RowSpacing="0">
             <Grid.RowDefinitions>
@@ -10,16 +11,16 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="400" />
             </Grid.ColumnDefinitions>
-            <BoxView BackgroundColor="Black" Grid.Column="0" Grid.Row="0" />
-            <BoxView BackgroundColor="#ffac41" Grid.Column="0" Grid.Row="1" />
+            <BoxView BackgroundColor="#4765FF" Grid.Column="0" Grid.Row="0" />
+            <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="1" />
             <StackLayout>
                 <Label x:Name="lblBalance" 
                    VerticalOptions="Center"
-                   TextColor="#ffac41"
+                   TextColor="White"
                    Text="₱ 78.00"
                    FontSize="40"
                    Margin="110,20,0,0"/>
-                <Label TextColor="#ffac41"
+                <Label TextColor="White"
                    VerticalOptions="Center"    
                    Text="Available Balance"
                    FontSize="10"
@@ -39,48 +40,114 @@
                                 HorizontalOptions="Start"
                                 TextColor="Black"/>
                     </StackLayout>
+
                     <StackLayout Margin="0,50,0,0">
                         <Image  x:Name="imgSendMoney"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
-                                Margin="40,0,0,0"
+                                Margin="50,0,0,0"
                                 HeightRequest="40"
                                 WidthRequest="30"/>
                         <Label  Text="Send Money"
-                                Margin="15,0,0,0"
+                                Margin="23,0,0,0"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
                                 TextColor="Black"/>
                     </StackLayout>
+
                     <StackLayout Margin="0,50,0,0">
                         <Image  x:Name="imgPayBills"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
-                                Margin="40,0,0,0"
+                                Margin="35,0,0,0"
                                 HeightRequest="40"
                                 WidthRequest="30"/>
                         <Label  Text="Pay Bills"
-                                Margin="15,0,0,0"
+                                Margin="20,0,0,0"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
                                 TextColor="Black"/>
                     </StackLayout>
+
                     <StackLayout  Margin="0,50,0,0">
                         <Image  x:Name="imgBuyLoad"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
-                                Margin="40,0,0,0"
+                                Margin="38,0,0,0"
                                 HeightRequest="40"
                                 WidthRequest="30"/>
                         <Label  Text="Buy Load"
-                                Margin="15,0,0,0"
+                                Margin="23,0,0,0"
                                 VerticalOptions="Start"
                                 HorizontalOptions="Start"
                                 TextColor="Black"/>
                     </StackLayout>
 
                 </StackLayout>
-                
+
+
+
+
+
+
+                <StackLayout Orientation="Horizontal" >
+                <StackLayout Margin="0,50,0,0">
+                        <Image  x:Name="imgBankTransfer"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="35,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text=" Bank Tranfer"
+                                Margin="8,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+
+                    <StackLayout Margin="0,50,0,0">
+                        <Image  x:Name="imgGamingPins"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="26,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text="G-Pins"
+                                Margin="21,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+
+                    <StackLayout Margin="0,50,0,0">
+                        <Image  x:Name="imgPayQR"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="48,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text="Pay QR"
+                                Margin="38,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+
+                    <StackLayout  Margin="0,50,0,0">
+                        <Image  x:Name="imgShowMore"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Margin="38,0,0,0"
+                                HeightRequest="40"
+                                WidthRequest="30"/>
+                        <Label  Text="Buy Load"
+                                Margin="23,0,0,0"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                TextColor="Black"/>
+                    </StackLayout>
+                </StackLayout>
+
             </StackLayout>
         </Grid>
     </ContentPage.Content>
