@@ -3,10 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lumiere.Pages.PageFunctions.CashinPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="White">
+            <StackLayout>
+                <Label Text="Choose loading partners: " 
+                       FontSize="20"
+                       TextColor="Black"
+                       Margin="10,15,0,20"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="25,0,0,0">
+                
+                <StackLayout>
+                    <Image x:Name="imgPalawan"
+                       HeightRequest="100"
+                       WidthRequest="100">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                        <Label Text="Palawan"
+                           Margin="25,0,0,0"
+                           TextColor="Black"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Image x:Name="imgMiniStop"
+                       HeightRequest="100"
+                       WidthRequest="100">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="7-11"
+                           Margin="35,0,0,0"
+                           TextColor="Black"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Image x:Name="imgSevenEleven"
+                       HeightRequest="100"
+                       WidthRequest="100">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"  NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Mini Stop"
+                           Margin="20,0,0,0"
+                           TextColor="Black"/>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

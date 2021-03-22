@@ -5,7 +5,7 @@
             x:Class="Lumiere.Pages.tabbed.MainTabbedPage"
             SelectedTabColor="White"
             UnselectedTabColor="#C4C4C4"
-            BarBackgroundColor="#4765FF">
+            BarBackgroundColor="#7868e6">
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">

@@ -4,8 +4,8 @@
              x:Class="Lumiere.Pages.PageParts.Balance">
 
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout VerticalOptions="Start"  HeightRequest="110" BackgroundColor="#4765FF">
+        <StackLayout BackgroundColor="#e4fbff">
+            <StackLayout VerticalOptions="Start"  HeightRequest="110" BackgroundColor="#7868e6">
                 <Label Text="₱78.00" 
                    HorizontalOptions="Center" 
                    Margin="0,20,0,0"
@@ -124,11 +124,32 @@
                 </StackLayout>
 
             </StackLayout>
-            <Frame CornerRadius="10"  
-                   OutlineColor="Red" 
-                   Padding="0">
+            <Frame Margin="10,10,10,0"
+                   BackgroundColor="#edeef7"
+                   CornerRadius="10"
+                   HasShadow="True"
+                   OutlineColor="#edeef7" 
+                   Padding="12">
                 <StackLayout>
-                    <Label Text="try lang"/>
+                    <Label Margin="0,0,0,0"
+                           TextColor="Black"
+                           Text="Transaction History"
+                           HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="10,0,10,0"
+                   BackgroundColor="#edeef7"
+                   CornerRadius="10"
+                   HasShadow="True"
+                   OutlineColor="#edeef7" 
+                   Padding="12">
+                <StackLayout>
+                    <Label Margin="0,0,0,0"
+                           TextColor="Gray"
+                           FontSize="10"
+                           HeightRequest="140"
+                           Text="No History"
+                           HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
         </StackLayout>
