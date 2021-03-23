@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumiere.Pages.IntroPage.LoginPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#333333">
+            <Image x:Name="imgLogo"
+                   Margin="0,80,0,0"
+                   HeightRequest="130"
+                   WidthRequest="130"/>
+            <Label Text="Lumiere"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="White"
+                   FontSize="30"/>
+            <Label Text="Sign in to continue using the app" 
+                   TextColor="White"
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="0,0,0,20"
+                   FontSize="12"/>
+            <Frame CornerRadius="15"
+                   Padding="0,0"
+                   Margin="15,0,15,10">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="+63 |" 
+                           FontSize="20"
+                           TextColor="Black"
+                           Margin="20,10,0,0" />
+                    <Entry HorizontalOptions="StartAndExpand"
+                           WidthRequest="240"
+                           Placeholder="         Phonenumber"
+                           PlaceholderColor="Black"
+                           Margin="0,0,10,0"/>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="15"
+                   Padding="0,0"
+                   Margin="15,0">
+                <Entry HorizontalOptions="StartAndExpand"
+                       WidthRequest="300"
+                       IsPassword="True"
+                       Placeholder="                      Password"
+                       PlaceholderColor="Black"
+                       TextColor="Black"
+                       Margin="20,0,0,0"/>
+            </Frame>
+            <Frame HorizontalOptions="CenterAndExpand"
+                   Padding="147,10"
+                   Margin="0,20,0,5"
+                   CornerRadius="15"
+                   BackgroundColor="#B3002D">
+                <Label Text="Login"
+                       Margin="0,0,0,0"
+                       TextColor="White"/>
+            </Frame>
+            <StackLayout Orientation="Horizontal" Padding="0,0"
+                         Margin="0,0,0,0"
+                         HorizontalOptions="CenterAndExpand">
+                <Label Text="Dont have an account?" TextColor="#C4C4C4" />
+                <Label Text="Register here!" TextColor="White" />
+            </StackLayout>
+            <Label Text="E-Commerce Project 2021"
+                   FontSize="13"
+                   Margin="0,75,0,0"
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

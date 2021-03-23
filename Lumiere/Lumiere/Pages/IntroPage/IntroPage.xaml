@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumiere.Pages.IntroPage.IntroPage"
+             NavigationPage.HasNavigationBar="False"
+             >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Image x:Name="imgLogo"
+                   Margin="0,150,0,0"
+                   HeightRequest="100"
+                   WidthRequest="100"/>
+            <Label Text="Lumiere"
+                   FontSize="20"
+                   TextColor="Black"
+                   Margin="0,0,0,0"
+                   HorizontalOptions="Center" />
+            <Label Margin="0,290,0,0"
+                   HorizontalOptions="Center"
+                   FontSize="10"
+                   Text="E-Commerce Project 2021" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

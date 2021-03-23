@@ -22,3 +22,5 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstan
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\ref\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.pdb
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\IntroPage\IntroPage.xaml.g.cs
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\IntroPage\LoginPage.xaml.g.cs

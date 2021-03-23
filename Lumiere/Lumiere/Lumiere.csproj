@@ -19,6 +19,7 @@
     <None Remove="Assets\Images\Cash-in.png" />
     <None Remove="Assets\Images\ellipsis.png" />
     <None Remove="Assets\Images\game.png" />
+    <None Remove="Assets\Images\Logo.png" />
     <None Remove="Assets\Images\Pay-Bills.png" />
     <None Remove="Assets\Images\qr-code.png" />
     <None Remove="Assets\Images\Send-money.png" />
@@ -33,6 +34,7 @@
     <EmbeddedResource Include="Assets\Images\Cash-in.png" />
     <EmbeddedResource Include="Assets\Images\ellipsis.png" />
     <EmbeddedResource Include="Assets\Images\game.png" />
+    <EmbeddedResource Include="Assets\Images\Logo.png" />
     <EmbeddedResource Include="Assets\Images\Pay-Bills.png" />
     <EmbeddedResource Include="Assets\Images\qr-code.png" />
     <EmbeddedResource Include="Assets\Images\Send-money.png" />
@@ -49,6 +51,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\HomeFlyout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\IntroPage\IntroPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\IntroPage\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\PageFunctions\BankTransferPage.xaml">
@@ -78,5 +86,9 @@
     <EmbeddedResource Update="Pages\tabbed\MainTabbedPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>

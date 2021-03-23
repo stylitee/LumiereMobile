@@ -1,4 +1,5 @@
 ﻿using Lumiere.Pages;
+using Lumiere.Pages.IntroPage;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,8 +12,8 @@ namespace Lumiere
         public App(string databaseLocation)
         {
             InitializeComponent();
-            MainPage = new Home();
-
+            //MainPage = new Home();
+            MainPage = new NavigationPage(new IntroPage());
             database_location = databaseLocation;
         }
 
