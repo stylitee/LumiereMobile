@@ -60,11 +60,13 @@ namespace Lumiere.Pages.PageParts
         private void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
         {
             //banktransfer
+            Navigation.PushAsync(new BankTransferPage());
         }
 
         private void TapGestureRecognizer_Tapped_5(object sender, EventArgs e)
         {
             //gamingpins
+
         }
 
         private void TapGestureRecognizer_Tapped_6(object sender, EventArgs e)

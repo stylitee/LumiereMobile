@@ -4,9 +4,13 @@
              x:Class="Lumiere.Pages.PageFunctions.BankTransferPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Name of Recepient: " />
+            <Entry x:Name="txtRecepient" />
+            <Label Text="Account number: " />
+            <Entry x:Name="txtAccountNumber" />
+            <Label Text="Amount to Transfer" />
+            <Entry x:Name="txtAmount" />
+            <Button Text="Send"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
