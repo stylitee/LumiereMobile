@@ -19,5 +19,28 @@ namespace Lumiere.Pages.IntroPage
 
             imgLogo.Source = ImageSource.FromResource("Lumiere.Assets.Images.Logo.png", assembly);
         }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            //loginButton
+
+            bool phoneNumber = string.IsNullOrEmpty(txtPassword.Text);
+            bool passWord = string.IsNullOrEmpty(txtPassword.Text);
+
+            if (phoneNumber || passWord) { DisplayAlert("Ops", "Please complete all the fields", "Okay"); }
+            else
+            {
+                if (txtPhoneNumber.Text == "9100252612" && txtPassword.Text == "password")
+                {
+                    Navigation.PushAsync(new Home());
+                }
+                else
+                {
+                    DisplayAlert("Ops", "Invalid credentials", "Try again");
+                }
+            }
+            btnLogin.BackgroundColor = Color.FromRgb(179, 0, 45);
+
+        }
     }
 }

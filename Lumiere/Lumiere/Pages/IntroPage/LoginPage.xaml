@@ -26,7 +26,8 @@
                            FontSize="20"
                            TextColor="Black"
                            Margin="20,10,0,0" />
-                    <Entry HorizontalOptions="StartAndExpand"
+                    <Entry x:Name="txtPhoneNumber"
+                           HorizontalOptions="StartAndExpand"
                            WidthRequest="240"
                            Placeholder="         Phonenumber"
                            PlaceholderColor="Black"
@@ -36,7 +37,8 @@
             <Frame CornerRadius="15"
                    Padding="0,0"
                    Margin="15,0">
-                <Entry HorizontalOptions="StartAndExpand"
+                <Entry x:Name="txtPassword"
+                       HorizontalOptions="StartAndExpand"
                        WidthRequest="300"
                        IsPassword="True"
                        Placeholder="                      Password"
@@ -44,12 +46,17 @@
                        TextColor="Black"
                        Margin="20,0,0,0"/>
             </Frame>
-            <Frame HorizontalOptions="CenterAndExpand"
+            <Frame x:Name="btnLogin"
+                   HorizontalOptions="CenterAndExpand"
                    Padding="147,10"
                    Margin="0,20,0,5"
                    CornerRadius="15"
                    BackgroundColor="#B3002D">
-                <Label Text="Login"
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+                <Label x:Name="lblLogin"
+                       Text="Login"
                        Margin="0,0,0,0"
                        TextColor="White"/>
             </Frame>
