@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumiere.Pages.PageFunctions.ChooseLoadPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame Margin="10,20,10,20"
+                   BackgroundColor="Blue"
+                   CornerRadius="10"
+                   HasShadow="True"
+                   OutlineColor="#edeef7" 
+                   Padding="12">
+                    <StackLayout>
+                        <Label Text="Globe" 
+                           Margin="10,10"
+                           FontSize="25"/>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 10"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="80,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 20"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="80,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 50"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="80,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 100"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="70,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 300"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="70,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 500"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="70,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 1000"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="60,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+                
+                <Frame HeightRequest="710"
+                       BackgroundColor="Red"
+                       CornerRadius="10"
+                       HasShadow="True"
+                       OutlineColor="#edeef7" 
+                       Padding="12"
+                       Margin="10,0,10,20">
+                    <StackLayout>
+                        <Label Text="Smart" 
+                           Margin="10,10"
+                           FontSize="25"/>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 10"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="80,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 20"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="80,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 50"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="80,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 100"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="70,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 300"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="70,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 500"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="70,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="10"
+                           HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Regular Load 1000"
+                                   TextColor="Black"
+                                   Margin="0,13,0,0"/>
+                                <Button Margin="60,0,0,0"
+                                    Text="Load"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

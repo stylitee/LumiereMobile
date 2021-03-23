@@ -42,17 +42,19 @@ namespace Lumiere.Pages.PageParts
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
             ///SEND MONEY
-            ///
+            Navigation.PushAsync(new SendMoneyPage());
         }
 
         private void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
         {
             //paybills
+            Navigation.PushAsync(new PayBillsPage());
         }
 
         private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
         {
             //buyload
+            Navigation.PushAsync(new ChooseLoadPage());
         }
 
         private void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)

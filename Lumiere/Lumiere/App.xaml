@@ -4,7 +4,7 @@
              x:Class="Lumiere.App">
     <Application.Resources>
         <Style x:Key="Homepage" TargetType="FlyoutPage">
-            <Setter Property="BackgroundColor" Value="Black" />
+            <Setter Property="BackgroundColor" Value="#7868e6" />
         </Style>
     </Application.Resources>
 </Application>
