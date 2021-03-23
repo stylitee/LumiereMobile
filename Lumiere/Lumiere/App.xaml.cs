@@ -7,15 +7,18 @@ namespace Lumiere
 {
     public partial class App : Application
     {
-        public App()
+        public static string database_location = string.Empty;
+        public App(string databaseLocation)
         {
             InitializeComponent();
             MainPage = new Home();
-            
+
+            database_location = databaseLocation;
         }
 
         protected override void OnStart()
         {
+
         }
 
         protected override void OnSleep()
