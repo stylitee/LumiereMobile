@@ -1,12 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Lumiere.Pages.IntroPage.RegisterPage">
+             x:Class="Lumiere.Pages.IntroPage.RegisterPage"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="#FCFCFC">
+            <Label Text="Create Account,"
+                   FontSize="35"
+                   TextColor="Black"
+                   Margin="20,20,0,0"/>
+            <Label Text="Sign up to get started"
+                   Margin="22,0,0,0"
+                   FontSize="20"
+                   TextColor="Gray"/>
+            
+            <Frame BackgroundColor="White"
+                   CornerRadius="10"
+                   Margin="20,50,20,5"
+                   Padding="15,0"
+                   BorderColor="Gray">
+                <Entry Placeholder="Full name"
+                       x:Name="txtFullname" />    
+            </Frame>
+
+            <Frame CornerRadius="10"
+                   Margin="20,0,20,5"
+                   Padding="15,0"
+                   BorderColor="Gray">
+                <Entry Placeholder="Phonenumber" 
+                       x:Name="txtPhoneNumber"/>
+            </Frame>
+
+            <Frame CornerRadius="10"
+                   Margin="20,0,20,5"
+                   Padding="15,0"
+                   BorderColor="Gray">
+                <Entry Placeholder="Address"
+                       x:Name="txtAddress" />
+            </Frame>
+
+            <Frame CornerRadius="10"
+                   Margin="20,0,20,5"
+                   Padding="15,0"
+                   BorderColor="Gray">
+                   <Entry Placeholder="Password"
+                           IsPassword="True"
+                           x:Name="txtPassword" />
+            </Frame>
+
+            <Frame CornerRadius="10"
+                   Margin="20,0,20,5"
+                   Padding="15,0"
+                   BorderColor="Gray">
+                <Entry Placeholder="Confirm Password"
+                           IsPassword="True"
+                           x:Name="txtConfirmPassword" />
+            </Frame>
+
+            <Frame CornerRadius="30"
+                   Margin="100,20,100,0"
+                   Padding="15,0"
+                   BackgroundColor="#0052D0">
+                <Label HorizontalOptions="Center"
+                       Text="Register" 
+                       TextColor="White"
+                       Padding="0,15"/>
+            </Frame>
+
+            <StackLayout Orientation="Horizontal"
+                         Margin="50,50,0,0">
+                <Label Text="Already have an acoount?"/>
+                <Label Text="Login here!"
+                       TextColor="#0052D0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

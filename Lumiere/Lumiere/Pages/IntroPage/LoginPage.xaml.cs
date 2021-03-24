@@ -44,5 +44,10 @@ namespace Lumiere.Pages.IntroPage
             btnLogin.BackgroundColor = Color.FromRgb(157, 0, 39);
             lblLogin.BackgroundColor = Color.White;
         }
+
+        private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage());
+        }
     }
 }

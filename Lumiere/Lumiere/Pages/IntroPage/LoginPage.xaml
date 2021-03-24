@@ -64,7 +64,11 @@
                          Margin="0,0,0,0"
                          HorizontalOptions="CenterAndExpand">
                 <Label Text="Dont have an account?" TextColor="#C4C4C4" />
-                <Label Text="Register here!" TextColor="White" />
+                <Label Text="Register here!" TextColor="White" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1" />
+                    </Label.GestureRecognizers>
+                </Label>
             </StackLayout>
             <Label Text="E-Commerce Project 2021"
                    FontSize="13"
