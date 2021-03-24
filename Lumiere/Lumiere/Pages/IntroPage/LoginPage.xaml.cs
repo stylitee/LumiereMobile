@@ -23,7 +23,8 @@ namespace Lumiere.Pages.IntroPage
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             //loginButton
-
+            btnLogin.BackgroundColor = Color.FromRgb(179, 0, 45);
+            lblLogin.BackgroundColor = Color.Gray;
             bool phoneNumber = string.IsNullOrEmpty(txtPassword.Text);
             bool passWord = string.IsNullOrEmpty(txtPassword.Text);
 
@@ -39,8 +40,9 @@ namespace Lumiere.Pages.IntroPage
                     DisplayAlert("Ops", "Invalid credentials", "Try again");
                 }
             }
-            btnLogin.BackgroundColor = Color.FromRgb(179, 0, 45);
-
+           
+            btnLogin.BackgroundColor = Color.FromRgb(157, 0, 39);
+            lblLogin.BackgroundColor = Color.White;
         }
     }
 }
