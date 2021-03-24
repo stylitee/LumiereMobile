@@ -65,6 +65,7 @@ namespace Lumiere.Pages.IntroPage
                     if(rows > 0)
                     {
                         DisplayAlert("Confirmation", "Account succesfully registered!", "Okay");
+                        Navigation.PushAsync(new LoginPage());
                     }
                     else
                     {

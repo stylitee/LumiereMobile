@@ -30,7 +30,7 @@
                            HorizontalOptions="StartAndExpand"
                            WidthRequest="240"
                            Placeholder="         Phonenumber"
-                           PlaceholderColor="Black"
+                           PlaceholderColor="Gray"
                            Margin="0,0,10,0"/>
                 </StackLayout>
             </Frame>
@@ -42,7 +42,7 @@
                        WidthRequest="300"
                        IsPassword="True"
                        Placeholder="                      Password"
-                       PlaceholderColor="Black"
+                       PlaceholderColor="Gray"
                        TextColor="Black"
                        Margin="20,0,0,0"/>
             </Frame>

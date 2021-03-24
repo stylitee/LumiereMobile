@@ -1,4 +1,7 @@
-﻿using Lumiere.Pages.PageFunctions;
+﻿using Lumiere.Model;
+using Lumiere.Pages.IntroPage;
+using Lumiere.Pages.PageFunctions;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +16,7 @@ namespace Lumiere.Pages.PageParts
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Balance : ContentPage
     {
+        public static string currentBalance;
         public Balance()
         {
             InitializeComponent();
@@ -20,7 +24,7 @@ namespace Lumiere.Pages.PageParts
             var assembly = typeof(Balance);
 
             //firstpart
-            
+            loadData();
             imgCashin.Source = ImageSource.FromResource("Lumiere.Assets.Images.Cash-in.png", assembly);
             imgBuyLoad.Source = ImageSource.FromResource("Lumiere.Assets.Images.Buy-load.png", assembly);
             imgPayBills.Source = ImageSource.FromResource("Lumiere.Assets.Images.Pay-Bills.png", assembly);
@@ -30,6 +34,25 @@ namespace Lumiere.Pages.PageParts
             imgGamingPins.Source = ImageSource.FromResource("Lumiere.Assets.Images.game.png", assembly);
             imgPayQR.Source = ImageSource.FromResource("Lumiere.Assets.Images.qr-code.png", assembly);
             imgShowMore.Source = ImageSource.FromResource("Lumiere.Assets.Images.ellipsis.png", assembly);
+        }
+
+        public void loadData()
+        {
+            SQLiteConnection conn = new SQLiteConnection(App.database_location);
+            var result = conn.Query<Users>("Select * FROM Users WHERE user_id = ?", LoginPage.userEntered_ID);
+            foreach (var s in result)
+            {
+                lblBalance.Text = "₱"+s.balance;
+            }
+            conn.Close();
+            currentBalance = lblBalance.Text;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            loadData();
         }
 
 

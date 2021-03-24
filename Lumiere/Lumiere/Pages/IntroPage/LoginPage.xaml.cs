@@ -15,6 +15,7 @@ namespace Lumiere.Pages.IntroPage
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
+        public static int userEntered_ID;
         public LoginPage()
         {
             InitializeComponent();
@@ -26,8 +27,7 @@ namespace Lumiere.Pages.IntroPage
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             //loginButton
-            btnLogin.BackgroundColor = Color.FromRgb(179, 0, 45);
-            lblLogin.BackgroundColor = Color.Gray;
+            
             bool phoneNumber = string.IsNullOrEmpty(txtPassword.Text);
             bool passWord = string.IsNullOrEmpty(txtPassword.Text);
             string dbPhoneNumber = "", dbpass = "";
@@ -44,6 +44,7 @@ namespace Lumiere.Pages.IntroPage
                     {
                         dbPhoneNumber = s.phoneNumber;
                         dbpass = s.password;
+                        userEntered_ID = s.user_id;
                     }
                     conn.Close();
                     if (txtPhoneNumber.Text == dbPhoneNumber && txtPassword.Text == dbpass)
@@ -60,13 +61,12 @@ namespace Lumiere.Pages.IntroPage
                 }
                 catch (Exception ex)
                 {
-
-                   
+                    DisplayAlert("Ops", "Invalid credentials", "Try again");
+                    txtPhoneNumber.Text = "";
+                    txtPassword.Text = "";
                 }
             }
-           
-            btnLogin.BackgroundColor = Color.FromRgb(157, 0, 39);
-            lblLogin.TextColor = Color.White;
+          
         }
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)

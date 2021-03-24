@@ -7,8 +7,10 @@
             <Label Padding="20" Text="Enter amount: " />
             <Entry x:Name="txtAmountCashin"
                    Margin="19,0,19,0"/>
-            <Button Margin="19,0,19,0" 
-                    Text="Proceed"/>
+            <Button x:Name="btnCashIn"
+                    Margin="19,0,19,0" 
+                    Text="Proceed"
+                    Clicked="btnCashIn_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

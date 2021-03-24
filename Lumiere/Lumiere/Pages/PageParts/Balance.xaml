@@ -6,7 +6,8 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#e4fbff">
             <StackLayout VerticalOptions="Start"  HeightRequest="110" BackgroundColor="#7868e6">
-                <Label Text="₱78.00" 
+                <Label x:Name="lblBalance"
+                   Text="₱7.00" 
                    HorizontalOptions="Center" 
                    Margin="0,20,0,0"
                    FontSize="30"
