@@ -2,7 +2,9 @@
 using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Lumiere.Model
 {
@@ -10,9 +12,8 @@ namespace Lumiere.Model
     {
         [PrimaryKey,AutoIncrement]
         public int user_id { get; set; }
-        public string name { get; set; }
-        [MaxLength(15)]
-        public string birthdate { get; set; }
+        [MaxLength(50)]
+        public string fullName { get; set; }
         [MaxLength(5)]
         public string isVerified { get; set; }
         [MaxLength(20)]
@@ -22,6 +23,6 @@ namespace Lumiere.Model
         [MaxLength(50)]
         public string address { get; set; }
         [MaxLength(15)]
-        public string phonenumber { get; set; }
+        public string phoneNumber { get; set; }
     }
 }
