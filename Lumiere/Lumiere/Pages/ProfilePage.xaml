@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <Frame CornerRadius="100" 
-                   HeightRequest="75"
-                   WidthRequest="75"
+                   HeightRequest="300"
+                   WidthRequest="300"
                    HorizontalOptions="Center"
                    Padding="0"
                    IsClippedToBounds="True">

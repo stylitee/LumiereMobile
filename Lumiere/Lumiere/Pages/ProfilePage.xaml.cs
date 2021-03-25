@@ -85,10 +85,10 @@ namespace Lumiere.Pages
                 Users user = new Users()
                 {
                     user_id = LoginPage.userEntered_ID,
-                    fullName = fullNames,
-                    password = passwords,
-                    address = addresss,
-                    phoneNumber = phonenumbers,
+                    fullName = txtFullName.Text,
+                    password = txtPassword.Text,
+                    address = txtAddress.Text,
+                    phoneNumber = txtPhoneNumber.Text,
                     balance = balance,
                     profile_image = image
                 };
@@ -98,6 +98,7 @@ namespace Lumiere.Pages
                 connection.Close();
 
                 DisplayAlert("Confirmation", "Account changes succesful", "Okay");
+                Navigation.PushAsync(new Home());
             }
             catch (Exception)
             {
