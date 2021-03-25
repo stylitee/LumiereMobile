@@ -25,3 +25,4 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstan
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\IntroPage\IntroPage.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\IntroPage\LoginPage.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\IntroPage\RegisterPage.xaml.g.cs
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageFunctions\LogoutPage.xaml.g.cs

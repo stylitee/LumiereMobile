@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lumiere.Pages.PageFunctions;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -37,7 +38,7 @@ namespace Lumiere.Pages
                     new HomeFlyoutMenuItem { Id = 1, Title = "Refer Friends" },
                     new HomeFlyoutMenuItem { Id = 2, Title = "Settings" },
                     new HomeFlyoutMenuItem { Id = 3, Title = "About" },
-                    new HomeFlyoutMenuItem { Id = 4, Title = "Logout" },
+                    new HomeFlyoutMenuItem { Id = 4, Title = "Logout", TargetType = typeof(LogoutPage) },
                 });
             }
 

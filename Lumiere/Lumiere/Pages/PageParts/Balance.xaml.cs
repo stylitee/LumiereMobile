@@ -54,7 +54,7 @@ namespace Lumiere.Pages.PageParts
         {
             SQLiteConnection conn = new SQLiteConnection(App.database_location);
             conn.CreateTable<Transaction>();
-            var result = conn.Query<Transaction>("Select * FROM Transaction");
+            var result = conn.Table<Transaction>().ToList();
 
             if(result.Count() == 0)
             {
@@ -62,10 +62,25 @@ namespace Lumiere.Pages.PageParts
             }
             else
             {
-                foreach (var s in result)
+                if (result.Count() == 1)
                 {
-                    lblHistoryData.Text = s.description;
+                    lblHistoryData.Text = result[result.Count() - 1].description;
+                    lblHistoryData1.Text = "";
+                    lblHistoryData2.Text = "";
                 }
+                else if(result.Count() == 2)
+                {
+                    lblHistoryData.Text = result[result.Count() - 1].description;
+                    lblHistoryData1.Text = result[result.Count() - 2].description;
+                    lblHistoryData2.Text = "";
+                }
+                else if(result.Count() == 3)
+                {
+                    lblHistoryData.Text = result[result.Count() - 1].description;
+                    lblHistoryData1.Text = result[result.Count() - 2].description;
+                    lblHistoryData2.Text = result[result.Count() - 3].description;
+                }
+                    
             }
             
             conn.Close();

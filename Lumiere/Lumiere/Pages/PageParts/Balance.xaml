@@ -152,6 +152,20 @@
                            HeightRequest="140"
                            Text=""
                            HorizontalOptions="Center"/>
+                    <Label x:Name="lblHistoryData1"
+                           Margin="0,0,0,0"
+                           TextColor="Gray"
+                           FontSize="10"
+                           HeightRequest="140"
+                           Text=""
+                           HorizontalOptions="Center"/>
+                    <Label x:Name="lblHistoryData2"
+                           Margin="0,0,0,0"
+                           TextColor="Gray"
+                           FontSize="10"
+                           HeightRequest="140"
+                           Text=""
+                           HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
         </StackLayout>
