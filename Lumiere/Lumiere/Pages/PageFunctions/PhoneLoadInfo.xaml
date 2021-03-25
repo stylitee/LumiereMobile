@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumiere.Pages.PageFunctions.PhoneLoadInfo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Phone number: "
+                   x:Name="txtPhonenumber"/>
+            <Button x:Name="btnProceed" 
+                    Text="Proceed"
+                    Clicked="btnProceed_Clicked"/>
+            <Button x:Name="btnBack"
+                    Text="Back"
+                    Clicked="btnBack_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

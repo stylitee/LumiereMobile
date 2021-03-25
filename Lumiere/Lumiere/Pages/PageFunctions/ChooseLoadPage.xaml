@@ -21,8 +21,10 @@
                                 <Label Text="Regular Load 10"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="80,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnGlobeReg10"
+                                    Margin="80,0,0,0"
+                                    Text="Load"
+                                    Clicked="btnGlobeReg10_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -31,8 +33,10 @@
                                 <Label Text="Regular Load 20"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="80,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnGlobeReg20" 
+                                    Margin="80,0,0,0"
+                                    Text="Load"
+                                    Clicked="btnGlobeReg20_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -41,8 +45,10 @@
                                 <Label Text="Regular Load 50"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="80,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnGlobeReg50"
+                                    Margin="80,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnGlobeReg50_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -51,8 +57,10 @@
                                 <Label Text="Regular Load 100"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="70,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnGlobeReg100"
+                                    Margin="70,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnGlobeReg100_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -61,8 +69,10 @@
                                 <Label Text="Regular Load 300"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="70,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnGlobeReg300"
+                                    Margin="70,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnGlobeReg300_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -71,8 +81,10 @@
                                 <Label Text="Regular Load 500"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="70,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnGlobeReg500" 
+                                    Margin="70,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnGlobeReg500_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -81,8 +93,10 @@
                                 <Label Text="Regular Load 1000"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="60,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnGlobeReg1000" 
+                                    Margin="60,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnGlobeReg1000_Clicked"/>
                             </StackLayout>
                         </Frame>
                     </StackLayout>
@@ -105,8 +119,10 @@
                                 <Label Text="Regular Load 10"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="80,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnSmartReg10" 
+                                    Margin="80,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnSmartReg10_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -115,8 +131,10 @@
                                 <Label Text="Regular Load 20"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="80,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnSmartReg20" 
+                                    Margin="80,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnSmartReg20_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -125,8 +143,10 @@
                                 <Label Text="Regular Load 50"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="80,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnSmartReg50" 
+                                    Margin="80,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnSmartReg50_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -135,8 +155,10 @@
                                 <Label Text="Regular Load 100"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="70,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnSmartReg100" 
+                                    Margin="70,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnSmartReg100_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -145,8 +167,10 @@
                                 <Label Text="Regular Load 300"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="70,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnSmartReg300" 
+                                    Margin="70,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnSmartReg300_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -155,8 +179,10 @@
                                 <Label Text="Regular Load 500"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="70,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnSmartReg500" 
+                                    Margin="70,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnSmartReg500_Clicked"/>
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
@@ -165,8 +191,10 @@
                                 <Label Text="Regular Load 1000"
                                    TextColor="Black"
                                    Margin="0,13,0,0"/>
-                                <Button Margin="60,0,0,0"
-                                    Text="Load"/>
+                                <Button x:Name="btnSmartReg1000"
+                                    Margin="60,0,0,0"
+                                    Text="Load"
+                                        Clicked="btnSmartReg1000_Clicked"/>
                             </StackLayout>
                         </Frame>
                     </StackLayout>

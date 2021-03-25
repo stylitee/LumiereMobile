@@ -10,7 +10,9 @@
             <Entry x:Name="txtAccountNumber"/>
             <Label Text="Company Name: " />
             <Picker x:Name="cmbCompany" />
-            <Button x:Name="btnPay" Text="Pay" />
+            <Button x:Name="btnPay" 
+                    Text="Pay"
+                    Clicked="btnPay_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

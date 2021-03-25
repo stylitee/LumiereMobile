@@ -51,6 +51,7 @@ namespace Lumiere.Pages.PageFunctions
                 };
 
                 
+                
                 connect.Update(user);
                 connect.Close();
                 DisplayAlert("Confirmation", "The amount " + txtAmountCashin.Text +" has been succesfully added to your account!", "okay");

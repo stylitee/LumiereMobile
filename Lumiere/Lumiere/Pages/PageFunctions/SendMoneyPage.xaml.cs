@@ -30,15 +30,31 @@ namespace Lumiere.Pages.PageFunctions
                 double totalBalance = double.Parse(firstTry) - double.Parse(txtAmountSent.Text);
                 try
                 {
+                    SQLiteConnection conn = new SQLiteConnection(App.database_location);
+                    var result = conn.Query<Users>("Select * FROM Users WHERE user_id = ?", LoginPage.userEntered_ID);
+                    string fullNames = "", isVerifieds = "", passwords = "", addresss = "", phonenumbers = "";
+                    foreach (var x in result)
+                    {
+                        fullNames = x.fullName;
+                        isVerifieds = x.isVerified;
+                        passwords = x.password;
+                        addresss = x.address;
+                        phonenumbers = x.phoneNumber;
+                    }
+                    conn.Close();
                     Users user = new Users()
                     {
                         user_id = LoginPage.userEntered_ID,
+                        fullName = fullNames,
+                        password = passwords,
+                        address = addresss,
+                        phoneNumber = phonenumbers,
                         balance = totalBalance.ToString() + ".00",
                     };
 
-                    SQLiteConnection conn = new SQLiteConnection(App.database_location);
-                    conn.Update(user);
-                    conn.Close();
+                    SQLiteConnection connection = new SQLiteConnection(App.database_location);
+                    connection.Update(user);
+                    connection.Close();
                     DisplayAlert("Confirmation", "The amount " + txtAmountSent.Text + " has been succesfully sent to " + txtPhoneNumber.Text, "okay");
                     Navigation.PushAsync(new Home());
 
