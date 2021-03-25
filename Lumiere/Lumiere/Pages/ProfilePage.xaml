@@ -17,6 +17,15 @@
             <Button Text="Upload Image"
                     x:Name="btnAddImage"
                     Clicked="btnAddImage_Clicked"/>
+            <Entry x:Name="txtFullName"/>
+            <Entry x:Name="txtPassword"
+                   IsPassword="True"/>
+            <Entry x:Name="txtAddress"/>
+            <Entry x:Name="txtPhoneNumber"/>
+            <Button x:Name="btnSave"
+                    Text="Save"
+                    Clicked="btnSave_Clicked"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
