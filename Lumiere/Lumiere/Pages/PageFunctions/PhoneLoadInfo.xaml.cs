@@ -1,4 +1,7 @@
-﻿using Lumiere.Pages.PageParts;
+﻿using Lumiere.Model;
+using Lumiere.Pages.IntroPage;
+using Lumiere.Pages.PageParts;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,10 +24,10 @@ namespace Lumiere.Pages.PageFunctions
         private void btnProceed_Clicked(object sender, EventArgs e)
         {
             string firstTry = Balance.currentBalance.Replace("₱", string.Empty);
-            if (double.Parse(firstTry) >= double.Parse())
+            if (double.Parse(firstTry) >= double.Parse(ChooseLoadPage.loadAmount))
             {
-                string descriptions = Balance.transactDesc + cmbCompany.SelectedItem.ToString();
-                double totalBalance = double.Parse(firstTry) - double.Parse(txtAmountPayed.Text);
+                string descriptions = Balance.transactDesc + ChooseLoadPage.loadPromo;
+                double totalBalance = double.Parse(firstTry) - double.Parse(ChooseLoadPage.loadAmount);
                 try
                 {
                     SQLiteConnection conn = new SQLiteConnection(App.database_location);
@@ -52,7 +55,7 @@ namespace Lumiere.Pages.PageFunctions
                     SQLiteConnection connection = new SQLiteConnection(App.database_location);
                     connection.Update(user);
                     connection.Close();
-                    DisplayAlert("Confirmation", "The amount " + txtAmountPayed.Text + " has been succesfully payed to " + cmbCompany.SelectedItem.ToString(), "okay");
+                    DisplayAlert("Confirmation", "The amount " + ChooseLoadPage.loadAmount + " has been succesfully loaded to " + txtPhonenumber.Text, "okay");
                     Navigation.PushAsync(new Home());
 
 
@@ -84,7 +87,7 @@ namespace Lumiere.Pages.PageFunctions
 
         private void btnBack_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ChooseLoadPage());
         }
     }
 }

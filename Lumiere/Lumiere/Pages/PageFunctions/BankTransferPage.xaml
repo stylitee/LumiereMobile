@@ -10,7 +10,9 @@
             <Entry x:Name="txtAccountNumber" />
             <Label Text="Amount to Transfer" />
             <Entry x:Name="txtAmount" />
-            <Button Text="Send"/>
+            <Button Text="Send"
+                    x:Name="btnSend"
+                    Clicked="btnSend_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
