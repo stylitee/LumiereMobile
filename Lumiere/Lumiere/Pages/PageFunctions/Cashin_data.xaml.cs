@@ -38,6 +38,22 @@ namespace Lumiere.Pages.PageFunctions
                 conn.Close();
                 DisplayAlert("Confirmation", "The amount " + txtAmountCashin.Text +" has been succesfully added to your account!", "okay");
                 Navigation.PushAsync(new Home());
+
+
+                Transaction trans = new Transaction()
+                {
+                    date = DateTime.Now.ToShortDateString(),
+                    time = DateTime.Now.ToShortTimeString(),
+                    user_id = LoginPage.userEntered_ID,
+                    description = Balance.transactDesc + txtAmountCashin.Text
+                };
+
+                SQLiteConnection connect = new SQLiteConnection(App.database_location);
+                connect.CreateTable<Transaction>();
+                connect.Insert(trans);
+                connect.Close();
+
+                
             }
             catch (Exception)
             {

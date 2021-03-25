@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lumiere.Pages.PageParts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,18 +27,21 @@ namespace Lumiere.Pages.PageFunctions
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             //palawan
+            Balance.transactDesc = Balance.transactDesc + "Palawan w/ amount of ₱";
             Navigation.PushAsync(new Cashin_data());
         }
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
             //711
+            Balance.transactDesc = Balance.transactDesc + "7/11 w/ amount of ₱";
             Navigation.PushAsync(new Cashin_data());
         }
 
         private void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
         {
             //ministop
+            Balance.transactDesc = Balance.transactDesc + "Ministop w/ amount of ₱";
             Navigation.PushAsync(new Cashin_data());
         }
     }

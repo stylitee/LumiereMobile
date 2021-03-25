@@ -17,6 +17,7 @@ namespace Lumiere.Pages.PageParts
     public partial class Balance : ContentPage
     {
         public static string currentBalance;
+        public static string transactDesc;
         public Balance()
         {
             InitializeComponent();
@@ -59,30 +60,35 @@ namespace Lumiere.Pages.PageParts
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             //CASHIN
+            transactDesc = "Cash in through ";
             Navigation.PushAsync(new CashinPage());
         }
 
         private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
         {
             ///SEND MONEY
+            transactDesc = "Sent money to ";
             Navigation.PushAsync(new SendMoneyPage());
         }
 
         private void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
         {
             //paybills
+            transactDesc = "Payed Bills in ";
             Navigation.PushAsync(new PayBillsPage());
         }
 
         private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
         {
             //buyload
+            transactDesc = "Bought load in ";
             Navigation.PushAsync(new ChooseLoadPage());
         }
 
         private void TapGestureRecognizer_Tapped_4(object sender, EventArgs e)
         {
             //banktransfer
+            transactDesc = "Transfered Money in ";
             Navigation.PushAsync(new BankTransferPage());
         }
 
