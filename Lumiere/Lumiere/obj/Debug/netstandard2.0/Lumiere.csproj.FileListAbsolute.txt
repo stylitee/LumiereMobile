@@ -2,7 +2,6 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\bin\Debug\netstan
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\bin\Debug\netstandard2.0\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\bin\Debug\netstandard2.0\ref\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\bin\Debug\netstandard2.0\Lumiere.pdb
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.csprojAssemblyReference.cache
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\Home.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\HomeFlyout.xaml.g.cs
@@ -27,3 +26,7 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstan
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\IntroPage\RegisterPage.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageFunctions\LogoutPage.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageFunctions\PhoneLoadInfo.xaml.g.cs
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.csprojAssemblyReference.cache
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\AboutPage.xaml.g.cs
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageFunctions\Unavailable.xaml.g.cs
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\ProfilePage.xaml.g.cs

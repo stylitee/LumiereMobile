@@ -74,7 +74,7 @@ namespace Lumiere.Pages.PageParts
                     lblHistoryData1.Text = result[result.Count() - 2].description;
                     lblHistoryData2.Text = "";
                 }
-                else if(result.Count() == 3)
+                else
                 {
                     lblHistoryData.Text = result[result.Count() - 1].description;
                     lblHistoryData1.Text = result[result.Count() - 2].description;

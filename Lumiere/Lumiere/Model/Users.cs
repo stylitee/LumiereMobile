@@ -24,5 +24,7 @@ namespace Lumiere.Model
         public string address { get; set; }
         [MaxLength(15)]
         public string phoneNumber { get; set; }
+        [MaxLength(999999999)]
+        public string profile_image { get; set; }
     }
 }

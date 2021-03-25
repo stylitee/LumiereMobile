@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumiere.Pages.ProfilePage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Frame CornerRadius="100" 
+                   HeightRequest="75"
+                   WidthRequest="75"
+                   HorizontalOptions="Center"
+                   Padding="0"
+                   IsClippedToBounds="True">
+                   <Image x:Name="imgProfile"  
+                          HorizontalOptions="Center"
+                          VerticalOptions="Center" />
+            </Frame>
+            <Button Text="Upload Image"
+                    x:Name="btnAddImage"
+                    Clicked="btnAddImage_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
