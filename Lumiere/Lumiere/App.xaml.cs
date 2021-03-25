@@ -12,8 +12,8 @@ namespace Lumiere
         public App(string databaseLocation)
         {
             InitializeComponent();
-            MainPage = new LoginPage();
-            //MainPage = new NavigationPage(new IntroPage());
+            //MainPage = new LoginPage();
+            MainPage = new NavigationPage(new IntroPage());
             database_location = databaseLocation;
         }
 

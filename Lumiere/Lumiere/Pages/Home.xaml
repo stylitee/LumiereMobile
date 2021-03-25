@@ -9,7 +9,7 @@
     <pages:HomeFlyout x:Name="FlyoutPage" />
   </FlyoutPage.Flyout>
   <FlyoutPage.Detail>
-        <NavigationPage BarBackground="#7868e6" >
+        <NavigationPage BarBackground="Black" >
             <x:Arguments>
         <tab:MainTabbedPage />
       </x:Arguments>

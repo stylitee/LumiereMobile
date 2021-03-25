@@ -4,23 +4,25 @@
              x:Class="Lumiere.Pages.IntroPage.LoginPage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#333333">
+        <StackLayout BackgroundColor="#2D2D2D">
             <Image x:Name="imgLogo"
-                   Margin="0,80,0,0"
+                   Margin="0,60,0,0"
+                   HorizontalOptions="CenterAndExpand"
                    HeightRequest="130"
                    WidthRequest="130"/>
-            <Label Text="Lumiere"
+            <Label Text="Sign in"
                    HorizontalOptions="CenterAndExpand"
                    TextColor="White"
                    FontSize="30"/>
-            <Label Text="Sign in to continue using the app" 
+            <Label Text="to continue using the app" 
                    TextColor="White"
                    HorizontalOptions="CenterAndExpand"
                    Margin="0,0,0,20"
                    FontSize="12"/>
             <Frame CornerRadius="15"
                    Padding="0,0"
-                   Margin="15,0,15,10">
+                   Margin="15,0,15,10"
+                   HorizontalOptions="CenterAndExpand">
                 <StackLayout Orientation="Horizontal">
                     <Label Text="+63 |" 
                            FontSize="20"
@@ -35,8 +37,9 @@
                 </StackLayout>
             </Frame>
             <Frame CornerRadius="15"
-                   Padding="0,0"
-                   Margin="15,0">
+                   Padding="0,0,0,0"
+                   Margin="20,0,20,0"
+                   HorizontalOptions="CenterAndExpand">
                 <Entry x:Name="txtPassword"
                        HorizontalOptions="StartAndExpand"
                        WidthRequest="300"
@@ -44,21 +47,21 @@
                        Placeholder="                      Password"
                        PlaceholderColor="Gray"
                        TextColor="Black"
-                       Margin="20,0,0,0"/>
+                       Margin="20,0,20,0"/>
             </Frame>
             <Frame x:Name="btnLogin"
                    HorizontalOptions="CenterAndExpand"
                    Padding="147,10"
                    Margin="0,20,0,5"
-                   CornerRadius="15"
-                   BackgroundColor="#B3002D">
+                   CornerRadius="10"
+                   BackgroundColor="#F8D73A">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
                 </Frame.GestureRecognizers>
                 <Label x:Name="lblLogin"
                        Text="Login"
                        Margin="0,0,0,0"
-                       TextColor="White"/>
+                       TextColor="Black"/>
             </Frame>
             <StackLayout Orientation="Horizontal" Padding="0,0"
                          Margin="0,0,0,0"
@@ -72,8 +75,9 @@
             </StackLayout>
             <Label Text="E-Commerce Project 2021"
                    FontSize="13"
-                   Margin="0,75,0,0"
+                   Margin="0,0,0,20"
                    HorizontalOptions="Center"
+                   VerticalOptions="EndAndExpand"
                    TextColor="White"/>
         </StackLayout>
     </ContentPage.Content>

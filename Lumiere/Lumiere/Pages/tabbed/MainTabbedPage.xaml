@@ -3,13 +3,13 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:tab="clr-namespace:Lumiere.Pages.PageParts"
             x:Class="Lumiere.Pages.tabbed.MainTabbedPage"
-            SelectedTabColor="White"
-            UnselectedTabColor="#C4C4C4"
-            BarBackgroundColor="#7868e6">
+            SelectedTabColor="#F8D73A"
+            UnselectedTabColor="#D6B107"
+            BarBackgroundColor="Black">
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
-            <Label Text="                          Lumiere" TextColor="White">
+            <Label Text="Lumiere" FontFamily="Pacifico" TextColor="#F8D73A" HorizontalOptions="CenterAndExpand" Margin="-65,0,0,0">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
                 </Label.GestureRecognizers>

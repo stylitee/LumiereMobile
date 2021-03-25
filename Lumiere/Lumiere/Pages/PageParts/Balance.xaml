@@ -4,8 +4,8 @@
              x:Class="Lumiere.Pages.PageParts.Balance">
 
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#e4fbff">
-            <StackLayout VerticalOptions="Start"  HeightRequest="110" BackgroundColor="#7868e6">
+        <StackLayout BackgroundColor="White">
+            <StackLayout VerticalOptions="Start"  HeightRequest="110" BackgroundColor="Black">
                 <Label x:Name="lblBalance"
                    Text="₱7.00" 
                    HorizontalOptions="Center" 
@@ -126,20 +126,20 @@
 
             </StackLayout>
             <Frame Margin="10,10,10,0"
-                   BackgroundColor="#edeef7"
+                   BackgroundColor="#2D2D2D"
                    CornerRadius="10"
                    HasShadow="True"
                    OutlineColor="#edeef7" 
                    Padding="12">
                 <StackLayout>
                     <Label Margin="0,0,0,0"
-                           TextColor="Black"
+                           TextColor="White"
                            Text="Transaction History"
                            HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
             <Frame Margin="10,0,10,0"
-                   BackgroundColor="#edeef7"
+                   BackgroundColor="#2D2D2D"
                    CornerRadius="10"
                    HasShadow="True"
                    OutlineColor="#edeef7" 
@@ -147,21 +147,21 @@
                 <StackLayout Padding="0,0">
                     <Label x:Name="lblHistoryData"
                            Margin="0,0,0,0"
-                           TextColor="Gray"
+                           TextColor="White"
                            FontSize="10"
                            HeightRequest="140"
                            Text=""
                            HorizontalOptions="Center"/>
                     <Label x:Name="lblHistoryData1"
                            Margin="0,0,0,0"
-                           TextColor="Gray"
+                           TextColor="White"
                            FontSize="10"
                            HeightRequest="140"
                            Text=""
                            HorizontalOptions="Center"/>
                     <Label x:Name="lblHistoryData2"
                            Margin="0,0,0,0"
-                           TextColor="Gray"
+                           TextColor="White"
                            FontSize="10"
                            HeightRequest="140"
                            Text=""

@@ -34,8 +34,8 @@ namespace Lumiere.Pages
             {
                 MenuItems = new ObservableCollection<HomeFlyoutMenuItem>(new[]
                 {
-                    new HomeFlyoutMenuItem { Id = 0, Title = "Profile",TargetType = typeof(ProfilePage)},
-                    new HomeFlyoutMenuItem { Id = 1, Title = "Refer Friends", TargetType = typeof(Unavailable) },
+                    new HomeFlyoutMenuItem { Id = 0, Title = "Home",TargetType = typeof(Home)},
+                    new HomeFlyoutMenuItem { Id = 1, Title = "Profile", TargetType = typeof(ProfilePage) },
                     new HomeFlyoutMenuItem { Id = 2, Title = "Settings", TargetType = typeof(Unavailable)},
                     new HomeFlyoutMenuItem { Id = 3, Title = "About" , TargetType = typeof(AboutPage)},
                     new HomeFlyoutMenuItem { Id = 4, Title = "Logout", TargetType = typeof(LogoutPage) },
