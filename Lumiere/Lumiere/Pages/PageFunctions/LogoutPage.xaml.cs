@@ -21,6 +21,7 @@ namespace Lumiere.Pages.PageFunctions
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             //confirm
+            LoginPage.userEntered_ID = 0;
             Navigation.PushAsync(new LoginPage());
         }
 

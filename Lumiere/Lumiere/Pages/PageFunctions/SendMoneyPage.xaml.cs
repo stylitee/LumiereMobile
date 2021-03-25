@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Lumiere.Model;
+using Lumiere.Pages.IntroPage;
+using Lumiere.Pages.PageParts;
+using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +19,57 @@ namespace Lumiere.Pages.PageFunctions
         public SendMoneyPage()
         {
             InitializeComponent();
+        }
+
+        private void btnSend_Clicked(object sender, EventArgs e)
+        {
+            string firstTry = Balance.currentBalance.Replace("₱", string.Empty);
+            if (double.Parse(firstTry) >= double.Parse(txtAmountSent.Text))
+            {
+                string descriptions = Balance.transactDesc + txtPhoneNumber.Text;
+                double totalBalance = double.Parse(firstTry) - double.Parse(txtAmountSent.Text);
+                try
+                {
+                    Users user = new Users()
+                    {
+                        user_id = LoginPage.userEntered_ID,
+                        balance = totalBalance.ToString() + ".00",
+                    };
+
+                    SQLiteConnection conn = new SQLiteConnection(App.database_location);
+                    conn.Update(user);
+                    conn.Close();
+                    DisplayAlert("Confirmation", "The amount " + txtAmountSent.Text + " has been succesfully sent to " + txtPhoneNumber.Text, "okay");
+                    Navigation.PushAsync(new Home());
+
+
+                    Transaction trans = new Transaction()
+                    {
+                        date = DateTime.Now.ToShortDateString(),
+                        time = DateTime.Now.ToShortTimeString(),
+                        user_id = LoginPage.userEntered_ID,
+                        description = descriptions
+                    };
+
+                    SQLiteConnection connect = new SQLiteConnection(App.database_location);
+                    connect.CreateTable<Transaction>();
+                    connect.Insert(trans);
+                    connect.Close();
+
+
+                }
+                catch (Exception)
+                {
+                    DisplayAlert("Error", "Error", "Okay");
+                }
+            }
+            else
+            {
+                DisplayAlert("Ops", "Insufficient Balance please top up first", "Okay");
+            }
+            
+            
+
         }
     }
 }

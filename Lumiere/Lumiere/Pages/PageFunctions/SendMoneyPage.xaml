@@ -11,7 +11,8 @@
             <Label Text="Name of recepient: " />
             <Entry x:Name="txtNameOfRecepient"/>
             <Button x:Name="btnSend"
-                    Text="Send" />
+                    Text="Send"
+                    Clicked="btnSend_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
