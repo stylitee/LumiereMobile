@@ -14,6 +14,13 @@
     <None Remove="Assets\CompanyPartnersImages\711.png" />
     <None Remove="Assets\CompanyPartnersImages\MINISTOP-LOGO.png" />
     <None Remove="Assets\CompanyPartnersImages\palawan.png" />
+    <None Remove="Assets\Fonts\Nobile-Bold.ttf" />
+    <None Remove="Assets\Fonts\Nobile-BoldItalic.ttf" />
+    <None Remove="Assets\Fonts\Nobile-Italic.ttf" />
+    <None Remove="Assets\Fonts\Nobile-Medium.ttf" />
+    <None Remove="Assets\Fonts\Nobile-MediumItalic.ttf" />
+    <None Remove="Assets\Fonts\Nobile-Regular.ttf" />
+    <None Remove="Assets\Fonts\Pacifico.ttf" />
     <None Remove="Assets\Images\Bank-Transfer.png" />
     <None Remove="Assets\Images\Buy-load.png" />
     <None Remove="Assets\Images\Cash-in.png" />
@@ -30,6 +37,13 @@
     <EmbeddedResource Include="Assets\CompanyPartnersImages\711.png" />
     <EmbeddedResource Include="Assets\CompanyPartnersImages\MINISTOP-LOGO.png" />
     <EmbeddedResource Include="Assets\CompanyPartnersImages\palawan.png" />
+    <EmbeddedResource Include="Assets\Fonts\Nobile-Bold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Nobile-BoldItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Nobile-Italic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Nobile-Medium.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Nobile-MediumItalic.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Nobile-Regular.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Pacifico.ttf" />
     <EmbeddedResource Include="Assets\Images\Bank-Transfer.png" />
     <EmbeddedResource Include="Assets\Images\Buy-load.png" />
     <EmbeddedResource Include="Assets\Images\Cash-in.png" />
