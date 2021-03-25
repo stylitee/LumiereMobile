@@ -26,6 +26,7 @@ namespace Lumiere.Pages.PageParts
 
             //firstpart
             loadData();
+            loadHistory();
             imgCashin.Source = ImageSource.FromResource("Lumiere.Assets.Images.Cash-in.png", assembly);
             imgBuyLoad.Source = ImageSource.FromResource("Lumiere.Assets.Images.Buy-load.png", assembly);
             imgPayBills.Source = ImageSource.FromResource("Lumiere.Assets.Images.Pay-Bills.png", assembly);
@@ -49,11 +50,33 @@ namespace Lumiere.Pages.PageParts
             currentBalance = lblBalance.Text;
         }
 
+        public void loadHistory()
+        {
+            SQLiteConnection conn = new SQLiteConnection(App.database_location);
+            conn.CreateTable<Transaction>();
+            var result = conn.Query<Transaction>("Select * FROM Transaction");
+
+            if(result.Count() == 0)
+            {
+                lblHistoryData.Text = "No History Data";
+            }
+            else
+            {
+                foreach (var s in result)
+                {
+                    lblHistoryData.Text = s.description;
+                }
+            }
+            
+            conn.Close();
+        }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
             loadData();
+            loadHistory();
         }
 
 

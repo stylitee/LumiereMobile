@@ -150,7 +150,7 @@
                            TextColor="Gray"
                            FontSize="10"
                            HeightRequest="140"
-                           Text="No History"
+                           Text=""
                            HorizontalOptions="Center"/>
                 </StackLayout>
             </Frame>
