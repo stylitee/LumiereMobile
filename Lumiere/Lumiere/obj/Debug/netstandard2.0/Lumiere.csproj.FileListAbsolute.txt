@@ -1,4 +1,3 @@
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.csprojAssemblyReference.cache
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\bin\Debug\netstandard2.0\Lumiere.deps.json
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\bin\Debug\netstandard2.0\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\bin\Debug\netstandard2.0\ref\Lumiere.dll

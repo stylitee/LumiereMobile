@@ -3,7 +3,7 @@
 	.section	.rodata.env.str.1,"aMS",@progbits,1
 	.type	.L.env.str.1, @object
 .L.env.str.1:
-	.asciz	"com.companyname.lumiere"
+	.asciz	"com.teamLumiere.lumiere"
 	.size	.L.env.str.1, 24
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
@@ -73,7 +73,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",@progbits,1
 	.type	.L.env.str.8, @object
 .L.env.str.8:
-	.asciz	"18ada1d9-61c2-40b6-bce6-53b32d287227"
+	.asciz	"92f1a7ae-1703-471c-bf4a-73193717d8f8"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",@progbits,1
 	.type	.L.env.str.9, @object
