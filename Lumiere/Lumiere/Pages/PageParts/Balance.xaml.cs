@@ -39,9 +39,9 @@ namespace Lumiere.Pages.PageParts
 
         public void loadData()
         {
-            //remove user table later here
+            
             SQLiteConnection conn = new SQLiteConnection(App.database_location);
-            conn.CreateTable<Users>();
+           
             var result = conn.Query<Users>("Select * FROM Users WHERE user_id = ?", LoginPage.userEntered_ID);
             foreach (var s in result)
             {
