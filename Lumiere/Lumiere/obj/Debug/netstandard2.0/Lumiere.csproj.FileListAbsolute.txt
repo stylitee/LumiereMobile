@@ -29,6 +29,5 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstan
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\ref\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.pdb
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Lumiere.csprojAssemblyReference.cache
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageFunctions\PayQr.xaml.g.cs
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere\obj\Debug\netstandard2.0\Pages\PageFunctions\GamingPins.xaml.g.cs
