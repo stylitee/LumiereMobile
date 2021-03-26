@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G1hIiUOdEmruOaQiUeGItbK59mku2wfw00/yMs3FblmTz1kNntwejQRutLMVRPABaP18ZNcEOUUXac4J3hQxTQ==",
+  "dgSpecHash": "Z1DTttEyKnzS5LAJry23+uOCMksgqy58Oc2FZ0Tbx8C+TIHNhCyPQAZt4z0KZUUX06diJJHx8MC2hsxyPlij9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.iOS\\Lumiere.iOS.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,10 @@
     "C:\\Users\\balon\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Users\\balon\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\balon\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\zxing.net\\0.16.6\\zxing.net.0.16.6.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\zxing.net.mobile\\3.1.0-beta2\\zxing.net.mobile.3.1.0-beta2.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\zxing.net.mobile.forms\\3.1.0-beta2\\zxing.net.mobile.forms.3.1.0-beta2.nupkg.sha512"
   ],
   "logs": []
 }

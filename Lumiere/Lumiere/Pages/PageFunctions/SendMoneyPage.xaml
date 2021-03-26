@@ -1,18 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Lumiere.Pages.PageFunctions.SendMoneyPage">
+             x:Class="Lumiere.Pages.PageFunctions.SendMoneyPage"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Amount to send: " />
-            <Entry x:Name="txtAmountSent"/>
-            <Label Text="Phone number: " />
-            <Entry x:Name="txtPhoneNumber"/>
-            <Label Text="Name of recepient: " />
-            <Entry x:Name="txtNameOfRecepient"/>
-            <Button x:Name="btnSend"
+            <Label Text="Send money: "
+                   TextColor="White"
+                   FontSize="25"
+                   Margin="20,30,0,0"/>
+            <Frame CornerRadius="15"
+                   Margin="20,30">
+                <StackLayout>
+                    <Label Text="Amount to send: " />
+                    <Entry x:Name="txtAmountSent"/>
+                    <Label Text="Phone number: " />
+                    <Entry x:Name="txtPhoneNumber"/>
+                    <Label Text="Name of recepient: " />
+                    <Entry x:Name="txtNameOfRecepient"/>
+                    <Button x:Name="btnSend"
                     Text="Send"
                     Clicked="btnSend_Clicked"/>
+                    <Button x:Name="btnCancel" 
+                            Text="Cancel"/>
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

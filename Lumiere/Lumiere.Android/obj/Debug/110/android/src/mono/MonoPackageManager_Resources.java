@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Lumiere.Android.dll" comes first in this list. */
 		"Lumiere.Android.dll",
+		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
 		"Lumiere.dll",
 		"SQLite-net.dll",
@@ -60,6 +61,9 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"zxing.dll",
+		"ZXing.Net.Mobile.Forms.dll",
+		"ZXingNetMobile.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

@@ -24,11 +24,12 @@ namespace Lumiere.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             string dbName = "lumiere_db.sqlite";
             string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
 
             string fullPath = Path.Combine(folderPath, dbName);
-
+            
             LoadApplication(new App(fullPath));
 
             return base.FinishedLaunching(app, options);

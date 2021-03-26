@@ -64,3 +64,8 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\De
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.csproj.CopyComplete
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.exe
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.pdb
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\zxing.dll
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\ZXingNetMobile.dll
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\ZXingNetMobile.pdb
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\ZXing.Net.Mobile.Forms.dll
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\ZXing.Net.Mobile.Forms.pdb

@@ -152,6 +152,7 @@ namespace Lumiere.Pages.PageParts
         private void TapGestureRecognizer_Tapped_6(object sender, EventArgs e)
         {
             //payQR
+            Navigation.PushAsync(new PayQr());
         }
     }
 }

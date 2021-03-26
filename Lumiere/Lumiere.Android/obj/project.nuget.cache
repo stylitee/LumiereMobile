@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bjjOOF00xOGDiqTiaRkX5HXQTI6f+TLxnLsD10uKIEcvw/2IZNwPqHv8g/13DLFlUtLOaGEDXPek/e7cjFYFiA==",
+  "dgSpecHash": "+NYhACWBLUd3l1C7AMgmuNYeTEkYM7CLxSbAnF4NGY2easjDHlJmN+wOMeJvli6NTH9Kmse7MGDyK3mybgWEFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\balon\\Desktop\\Ecommerce\\LumiereMobile\\Lumiere\\Lumiere.Android\\Lumiere.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\balon\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -60,7 +61,10 @@
     "C:\\Users\\balon\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Users\\balon\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\zxing.net\\0.16.6\\zxing.net.0.16.6.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\zxing.net.mobile\\3.1.0-beta2\\zxing.net.mobile.3.1.0-beta2.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\zxing.net.mobile.forms\\3.1.0-beta2\\zxing.net.mobile.forms.3.1.0-beta2.nupkg.sha512"
   ],
   "logs": []
 }
