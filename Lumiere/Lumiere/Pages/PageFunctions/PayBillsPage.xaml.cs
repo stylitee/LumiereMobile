@@ -93,5 +93,10 @@ namespace Lumiere.Pages.PageFunctions
             }
 
         }
+
+        private void btnCancel_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Home());
+        }
     }
 }

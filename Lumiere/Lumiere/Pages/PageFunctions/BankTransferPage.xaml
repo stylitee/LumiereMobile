@@ -1,18 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Lumiere.Pages.PageFunctions.BankTransferPage">
+             x:Class="Lumiere.Pages.PageFunctions.BankTransferPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Name of Recepient: " />
-            <Entry x:Name="txtRecepient" />
-            <Label Text="Account number: " />
-            <Entry x:Name="txtAccountNumber" />
-            <Label Text="Amount to Transfer" />
-            <Entry x:Name="txtAmount" />
-            <Button Text="Send"
-                    x:Name="btnSend"
-                    Clicked="btnSend_Clicked"/>
+        <StackLayout >
+            <Label Text="Bank Transfer" 
+                   FontSize="30"
+                   Margin="20,30,0,10"
+                   TextColor="White"/>
+            <Frame CornerRadius="15"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   BackgroundColor="#2D2D2D"
+                   HasShadow="True"
+                   Margin="0,20,0,0"
+                   BorderColor="#2D2D2D">
+
+                <StackLayout HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         BackgroundColor="#2D2D2D">
+
+                    <Label Text="Name of Recepient: "
+                           TextColor="White"/>
+                    <Entry x:Name="txtRecepient" 
+                           WidthRequest="300"
+                           TextColor="White"/>
+                    <Label Text="Account number: "
+                           TextColor="White"/>
+                    <Entry x:Name="txtAccountNumber"
+                           TextColor="White"/>
+                    <Label Text="Amount to Transfer"
+                           TextColor="White"/>
+                    <Entry x:Name="txtAmount"
+                           TextColor="White"/>
+                    <Frame HorizontalOptions="Center"
+                           Margin="0,10,0,0"
+                           Padding="30,10"
+                           CornerRadius="15"
+                           HasShadow="True"
+                           BackgroundColor="#F8D73A">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="btnSendNow" Tapped="btnSendNow_Tapped" NumberOfTapsRequired="1"/>
+                        </Frame.GestureRecognizers>
+                        <Label Margin="30,0,30,0"
+                               Text="Send"
+                               TextColor="Black"/>
+                    </Frame>
+                    <Frame HorizontalOptions="Center"
+                           Padding="30,10"
+                           CornerRadius="15"
+                           HasShadow="True"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="btnCancel" Tapped="btnCancel_Tapped"  NumberOfTapsRequired="1"/>
+                        </Frame.GestureRecognizers>
+                        <Label Margin="25,0"
+                               Text="Cancel" TextColor="White"/>
+                    </Frame>                        
+                </StackLayout>
+
+            </Frame>
+            
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

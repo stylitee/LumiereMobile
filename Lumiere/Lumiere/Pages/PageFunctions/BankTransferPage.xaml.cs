@@ -23,6 +23,12 @@ namespace Lumiere.Pages.PageFunctions
 
         private void btnSend_Clicked(object sender, EventArgs e)
         {
+            
+        }
+
+
+        private void btnSendNow_Tapped(object sender, EventArgs e)
+        {
             string firstTry = Balance.currentBalance.Replace("₱", string.Empty);
             if (double.Parse(firstTry) >= double.Parse(txtAmount.Text))
             {
@@ -83,6 +89,11 @@ namespace Lumiere.Pages.PageFunctions
             {
                 DisplayAlert("Ops", "Insufficient Balance please top up first", "Okay");
             }
+        }
+
+        private void btnCancel_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Home());
         }
     }
 }

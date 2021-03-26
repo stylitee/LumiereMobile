@@ -17,11 +17,13 @@ namespace Lumiere.Pages.PageFunctions
         public ChooseLoadPage()
         {
             InitializeComponent();
-        }
-        public void loadNumberProcess()
-        {
 
+            var assembly = typeof(ChooseLoadPage);
+
+            imgGlobeLogo.Source = ImageSource.FromResource("Lumiere.Assets.CompanyPartnersImages.globe_logo.png", assembly);
+            imgSmartLogo.Source = ImageSource.FromResource("Lumiere.Assets.CompanyPartnersImages.logo_smart.png", assembly);
         }
+        
 
         private void btnGlobeReg10_Clicked(object sender, EventArgs e)
         {

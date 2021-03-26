@@ -15,7 +15,7 @@ namespace Lumiere
         {
             InitializeComponent();
             //MainPage = new LoginPage();
-            MainPage = new NavigationPage(new LogoutPage());
+            MainPage = new NavigationPage(new SendMoneyPage());
             database_location = databaseLocation;
 
             //to prevent user going to the loginpage whenver they pressed the back butoon in android
@@ -29,6 +29,7 @@ namespace Lumiere
 
         protected override void OnSleep()
         {
+
         }
 
         protected override void OnResume()

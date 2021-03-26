@@ -1,16 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Lumiere.Pages.PageFunctions.Cashin_data">
+             x:Class="Lumiere.Pages.PageFunctions.Cashin_data"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Padding="20" Text="Enter amount: " />
-            <Entry x:Name="txtAmountCashin"
-                   Margin="19,0,19,0"/>
-            <Button x:Name="btnCashIn"
-                    Margin="19,0,19,0" 
-                    Text="Proceed"
+        <StackLayout HorizontalOptions="Center"
+                     BackgroundColor="Black">
+            <Label Text="Cash-In"
+                   FontSize="40"
+                   Margin="0,20"
+                   TextColor="White"/>
+            <Frame CornerRadius="15"
+                   Margin="0,0,0,0"
+                   HasShadow="True"
+                   BackgroundColor="#2D2D2D"
+                   WidthRequest="250">
+                <StackLayout >
+                    <Label TextColor="White"
+                           Padding="20" Text="Enter amount: " />
+                    <Entry TextColor="White"
+                           x:Name="txtAmountCashin"
+                           Margin="19,0,19,0"/>
+                    <Button x:Name="btnCashIn"
+                            Margin="19,0,19,0" 
+                            Text="Proceed"
                     Clicked="btnCashIn_Clicked"/>
+                    <Button x:Name="btnCancel"
+                            Margin="19,0,19,0" 
+                            Text="Cancel"
+                            Clicked="btnCancel_Clicked"/>
+                </StackLayout>    
+            </Frame>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

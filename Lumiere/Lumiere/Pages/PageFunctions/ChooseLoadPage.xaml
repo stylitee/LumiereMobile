@@ -1,27 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Lumiere.Pages.PageFunctions.ChooseLoadPage">
+             x:Class="Lumiere.Pages.PageFunctions.ChooseLoadPage"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                
+                
                 <Frame Margin="10,20,10,20"
-                   BackgroundColor="Blue"
+                   BackgroundColor="White"
                    CornerRadius="10"
                    HasShadow="True"
                    OutlineColor="#edeef7" 
                    Padding="12">
                     <StackLayout>
-                        <Label Text="Globe" 
-                           Margin="10,10"
-                           FontSize="25"/>
+                        <Image x:Name="imgGlobeLogo"
+                       HeightRequest="50"
+                       WidthRequest="100"
+                               Margin="0,10,0,20"/>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 10"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
-                                <Button x:Name="btnGlobeReg10"
+                                <Button  
+                                    x:Name="btnGlobeReg10"
                                     Margin="80,0,0,0"
                                     Text="Load"
                                     Clicked="btnGlobeReg10_Clicked"/>
@@ -40,10 +47,11 @@
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 50"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
                                 <Button x:Name="btnGlobeReg50"
                                     Margin="80,0,0,0"
@@ -64,10 +72,11 @@
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 300"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
                                 <Button x:Name="btnGlobeReg300"
                                     Margin="70,0,0,0"
@@ -88,10 +97,11 @@
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 1000"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
                                 <Button x:Name="btnGlobeReg1000" 
                                     Margin="60,0,0,0"
@@ -103,21 +113,22 @@
                 </Frame>
                 
                 <Frame HeightRequest="710"
-                       BackgroundColor="Red"
+                       BackgroundColor="White"
                        CornerRadius="10"
                        HasShadow="True"
                        OutlineColor="#edeef7" 
                        Padding="12"
                        Margin="10,0,10,20">
                     <StackLayout>
-                        <Label Text="Smart" 
-                           Margin="10,10"
-                           FontSize="25"/>
+                        <Image x:Name="imgSmartLogo"
+                               HeightRequest="100"
+                               WidthRequest="100"/>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 10"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
                                 <Button x:Name="btnSmartReg10" 
                                     Margin="80,0,0,0"
@@ -138,10 +149,11 @@
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 50"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
                                 <Button x:Name="btnSmartReg50" 
                                     Margin="80,0,0,0"
@@ -162,10 +174,11 @@
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 300"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
                                 <Button x:Name="btnSmartReg300" 
                                     Margin="70,0,0,0"
@@ -186,10 +199,11 @@
                             </StackLayout>
                         </Frame>
                         <Frame CornerRadius="10"
-                           HasShadow="True">
+                           HasShadow="True"
+                               BackgroundColor="#2D2D30">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Regular Load 1000"
-                                   TextColor="Black"
+                                   TextColor="White"
                                    Margin="0,13,0,0"/>
                                 <Button x:Name="btnSmartReg1000"
                                     Margin="60,0,0,0"

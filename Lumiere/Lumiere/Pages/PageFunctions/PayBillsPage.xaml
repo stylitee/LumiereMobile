@@ -1,18 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black"
              x:Class="Lumiere.Pages.PageFunctions.PayBillsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Amount to pay: " />
-            <Entry x:Name="txtAmountPayed"/>
-            <Label Text="Account number: " />
-            <Entry x:Name="txtAccountNumber"/>
-            <Label Text="Company Name: " />
-            <Picker x:Name="cmbCompany" />
-            <Button x:Name="btnPay" 
+            <Label Text="Pay bills: " 
+                   TextColor="White"
+                   FontSize="35"
+                   Margin="30,30,0,30"/> 
+            <Frame CornerRadius="25"
+                   HorizontalOptions="Center"
+                   WidthRequest="270">
+                <StackLayout>
+                    <Label Text="Amount to pay: " />
+                    <Entry x:Name="txtAmountPayed"/>
+                    <Label Text="Account number: " />
+                    <Entry x:Name="txtAccountNumber"/>
+                    <Label Text="Company Name: " />
+                    <Picker x:Name="cmbCompany" />
+                    <Button x:Name="btnPay" 
                     Text="Pay"
                     Clicked="btnPay_Clicked"/>
+                    <Button x:Name="btnCancel"
+                            Text="Cancel"
+                            Clicked="btnCancel_Clicked" />
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <None Remove="Assets\CompanyPartnersImages\711.png" />
+    <None Remove="Assets\CompanyPartnersImages\globe_logo.png" />
+    <None Remove="Assets\CompanyPartnersImages\logo_smart.png" />
     <None Remove="Assets\CompanyPartnersImages\MINISTOP-LOGO.png" />
     <None Remove="Assets\CompanyPartnersImages\palawan.png" />
     <None Remove="Assets\Fonts\Nobile-Bold.ttf" />
@@ -40,6 +42,8 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\CompanyPartnersImages\711.png" />
+    <EmbeddedResource Include="Assets\CompanyPartnersImages\globe_logo.png" />
+    <EmbeddedResource Include="Assets\CompanyPartnersImages\logo_smart.png" />
     <EmbeddedResource Include="Assets\CompanyPartnersImages\MINISTOP-LOGO.png" />
     <EmbeddedResource Include="Assets\CompanyPartnersImages\palawan.png" />
     <EmbeddedResource Include="Assets\Fonts\Nobile-Bold.ttf" />
