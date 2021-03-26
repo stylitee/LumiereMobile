@@ -13,119 +13,128 @@
                    FontSize="30"
                    TextColor="White"/>
                 <Label Text="Available Balance" 
-                   Margin="0,0,0,0"
-                   HorizontalTextAlignment="Center"
+                   Margin="0,0,0,20"
+                   HorizontalOptions="Center"
                    TextColor="White"
                    FontSize="10"/>
             </StackLayout>
-            <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 
-                <StackLayout Margin="0,20,0,0">
+                <StackLayout Margin="0,20,0,20" 
+                             
+                             HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
                     <Image x:Name="imgCashin" 
                        HeightRequest="30"
-                       Margin="25,0,0,0">
+                       Margin="0,0,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Cash In"
-                           Margin="20,0,0,0"/>
-                </StackLayout>
+                           Margin="0,0,0,0"
+                           HorizontalOptions="Center"/>
 
-                <StackLayout Margin="0,20,0,0">
                     <Image x:Name="imgSendMoney" 
                        HeightRequest="30"
-                       Margin="25,0,0,0">
+                       Margin="0,20,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"  NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Send Money"
-                           Margin="20,0,0,0"/>
+                           Margin="0,0"/>
+
                 </StackLayout>
 
-                <StackLayout Margin="0,20,0,0">
+
+                <StackLayout Margin="5,20" 
+                             
+                             HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
                     <Image x:Name="imgPayBills" 
-                       HeightRequest="30"
-                       Margin="25,0,0,0">
+                           HeightRequest="30"
+                           Margin="0,0,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Pay Bills"
-                           Margin="20,0,0,0"/>
-                </StackLayout>
-
-                <StackLayout Margin="0,20,0,0">
+                           Margin="0,0,0,0"
+                           HorizontalOptions="Center"/>
                     <Image x:Name="imgBuyLoad" 
                        HeightRequest="30"
-                       Margin="25,0,0,0">
+                       Margin="0,20,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Buy Load"
-                           Margin="20,0,0,0"/>
+                           Margin="0,0,0,0"/>
                 </StackLayout>
-                
-                
-                
-                
-                
-                
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
 
-                <StackLayout Margin="-10,20,0,0">
+                <StackLayout Margin="0,20,5,20" 
+                              
+                             HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
                     <Image x:Name="imgBankTransfer" 
                        HeightRequest="30"
-                       Margin="10,0,0,0">
+                       Margin="0,0,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"  NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
-                    <Label Text="Bank Transfer"
-                           Margin="20,0,0,0"/>
-                </StackLayout>
+                    <Label x:Name="lblBankTransfer"
+                           Text="Bank Transfer"
+                           Margin="0,0,0,0"/>
 
-                <StackLayout Margin="0,20,0,0">
                     <Image x:Name="imgGamingPins" 
                        HeightRequest="30"
-                       Margin="-19,0,0,0">
+                       Margin="0,20,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"  NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
-                    <Label Text="Gaming Pins"
-                           Margin="0,0,0,0"/>
+                    <Label x:Name="lblGamingPins"
+                           Text="Gaming Pins"
+                           HorizontalOptions="Center"
+                           Margin="0,0"/>
+                    
                 </StackLayout>
 
-                <StackLayout Margin="0,20,0,0">
+                <StackLayout Margin="0,20,0,20" 
+                             
+                             HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
                     <Image x:Name="imgPayQR" 
                        HeightRequest="30"
-                       Margin="25,0,0,0">
+                       Margin="0,0,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6"  NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Pay QR"
-                           Margin="15,0,0,0"/>
-                </StackLayout>
+                           Margin="0,0,0,0"
+                           HorizontalOptions="Center"/>
 
-                <StackLayout Margin="0,20,0,0">
+
                     <Image x:Name="imgShowMore" 
                        HeightRequest="30"
-                       Margin="20,0,0,0">
+                       Margin="0,20,0,0">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Show More"
-                           Margin="20,0,0,0"/>
-                </StackLayout>
+                           Margin="0,0,0,0"/>
 
+                </StackLayout>
             </StackLayout>
-            <Frame Margin="10,10,10,0"
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+
+                
+            </StackLayout>
+            <Frame Margin="10,0,10,0"
                    BackgroundColor="#2D2D2D"
                    CornerRadius="10"
                    HasShadow="True"
@@ -144,28 +153,41 @@
                    HasShadow="True"
                    OutlineColor="#edeef7" 
                    Padding="12">
-                <StackLayout Padding="0,0">
-                    <Label x:Name="lblHistoryData"
+                
+                <StackLayout 
+                             Padding="0,0"
+                             HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
+                    <Label 
+                           x:Name="lblHistoryData"
                            Margin="0,0,0,0"
                            TextColor="White"
                            FontSize="10"
-                           HeightRequest="140"
-                           Text=""
+                           Text="No history data"
                            HorizontalOptions="Center"/>
-                    <Label x:Name="lblHistoryData1"
+                    <Label 
+                           x:Name="lblHistoryData1"
                            Margin="0,0,0,0"
                            TextColor="White"
                            FontSize="10"
-                           HeightRequest="140"
                            Text=""
                            HorizontalOptions="Center"/>
-                    <Label x:Name="lblHistoryData2"
+                    <Label 
+                           x:Name="lblHistoryData2"
                            Margin="0,0,0,0"
                            TextColor="White"
                            FontSize="10"
-                           HeightRequest="140"
                            Text=""
                            HorizontalOptions="Center"/>
+                    <Label 
+                           x:Name="lblHistoryData3"
+                           Margin="0,0,0,0"
+                           TextColor="White"
+                           FontSize="10"
+                           Text=""
+                           HorizontalOptions="Center"/>
+                    <Button Text="See all history"
+                            x:Name="btnSeeHistory"/>
                 </StackLayout>
             </Frame>
         </StackLayout>

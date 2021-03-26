@@ -21,6 +21,11 @@
     <None Remove="Assets\Fonts\Nobile-MediumItalic.ttf" />
     <None Remove="Assets\Fonts\Nobile-Regular.ttf" />
     <None Remove="Assets\Fonts\Pacifico.ttf" />
+    <None Remove="Assets\HomeSettingImages\about.png" />
+    <None Remove="Assets\HomeSettingImages\home.png" />
+    <None Remove="Assets\HomeSettingImages\logout.png" />
+    <None Remove="Assets\HomeSettingImages\mechanical-gears-.png" />
+    <None Remove="Assets\HomeSettingImages\profile-user.png" />
     <None Remove="Assets\Images\Bank-Transfer.png" />
     <None Remove="Assets\Images\Buy-load.png" />
     <None Remove="Assets\Images\Cash-in.png" />
@@ -44,6 +49,11 @@
     <EmbeddedResource Include="Assets\Fonts\Nobile-MediumItalic.ttf" />
     <EmbeddedResource Include="Assets\Fonts\Nobile-Regular.ttf" />
     <EmbeddedResource Include="Assets\Fonts\Pacifico.ttf" />
+    <EmbeddedResource Include="Assets\HomeSettingImages\about.png" />
+    <EmbeddedResource Include="Assets\HomeSettingImages\home.png" />
+    <EmbeddedResource Include="Assets\HomeSettingImages\logout.png" />
+    <EmbeddedResource Include="Assets\HomeSettingImages\mechanical-gears-.png" />
+    <EmbeddedResource Include="Assets\HomeSettingImages\profile-user.png" />
     <EmbeddedResource Include="Assets\Images\Bank-Transfer.png" />
     <EmbeddedResource Include="Assets\Images\Buy-load.png" />
     <EmbeddedResource Include="Assets\Images\Cash-in.png" />

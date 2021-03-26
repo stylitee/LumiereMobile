@@ -24,6 +24,8 @@ namespace Lumiere.Pages
 
             BindingContext = new HomeFlyoutViewModel();
             ListView = MenuItemsListView;
+
+            var assembly = typeof(HomeFlyout);
         }
 
         class HomeFlyoutViewModel : INotifyPropertyChanged

@@ -1,11 +1,3 @@
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\optimized\
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.csprojAssemblyReference.cache
-C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.csproj.CoreCompileInputs.cache
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\Lumiere.iOS.exe
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\Lumiere.iOS.pdb
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\SQLite-net.dll
@@ -61,6 +53,14 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\De
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\Lumiere.dll
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\bin\iPhone\Debug\Lumiere.pdb
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\optimized\
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.csprojAssemblyReference.cache
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.csproj.CoreCompileInputs.cache
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.csproj.CopyComplete
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.exe
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.iOS\obj\iPhone\Debug\Lumiere.iOS.pdb

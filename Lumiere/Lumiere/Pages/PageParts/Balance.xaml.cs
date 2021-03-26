@@ -24,7 +24,6 @@ namespace Lumiere.Pages.PageParts
             
             var assembly = typeof(Balance);
 
-            //firstpart
             loadData();
             loadHistory();
             imgCashin.Source = ImageSource.FromResource("Lumiere.Assets.Images.Cash-in.png", assembly);
@@ -40,7 +39,9 @@ namespace Lumiere.Pages.PageParts
 
         public void loadData()
         {
+            //remove user table later here
             SQLiteConnection conn = new SQLiteConnection(App.database_location);
+            conn.CreateTable<Users>();
             var result = conn.Query<Users>("Select * FROM Users WHERE user_id = ?", LoginPage.userEntered_ID);
             foreach (var s in result)
             {
@@ -52,6 +53,7 @@ namespace Lumiere.Pages.PageParts
 
         public void loadHistory()
         {
+            btnSeeHistory.IsEnabled = false;
             SQLiteConnection conn = new SQLiteConnection(App.database_location);
             conn.CreateTable<Transaction>();
             var result = conn.Table<Transaction>().ToList();
@@ -74,11 +76,22 @@ namespace Lumiere.Pages.PageParts
                     lblHistoryData1.Text = result[result.Count() - 2].description;
                     lblHistoryData2.Text = "";
                 }
-                else
+                else if(result.Count() == 3)
                 {
                     lblHistoryData.Text = result[result.Count() - 1].description;
                     lblHistoryData1.Text = result[result.Count() - 2].description;
                     lblHistoryData2.Text = result[result.Count() - 3].description;
+                }
+                else if(result.Count() == 4)
+                {
+                    lblHistoryData.Text = result[result.Count() - 1].description;
+                    lblHistoryData1.Text = result[result.Count() - 2].description;
+                    lblHistoryData2.Text = result[result.Count() - 3].description;
+                    lblHistoryData3.Text = result[result.Count() - 4].description;
+                }
+                else
+                {
+                    btnSeeHistory.IsEnabled = true;
                 }
                     
             }

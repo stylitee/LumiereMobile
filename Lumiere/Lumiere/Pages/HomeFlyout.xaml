@@ -37,12 +37,13 @@
         <DataTemplate>
           <ViewCell>
             <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
-              <Label VerticalOptions="FillAndExpand" 
-                    VerticalTextAlignment="Center"
-                     TextColor="Black"
-                    Text="{Binding Title}" 
-                    FontSize="24"/>
-            </StackLayout>
+                 
+                            <Label VerticalOptions="FillAndExpand" 
+                                       VerticalTextAlignment="Center"
+                                       TextColor="Black"
+                                       Text="{Binding Title}" 
+                                       FontSize="24"/>
+                        </StackLayout>
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>
