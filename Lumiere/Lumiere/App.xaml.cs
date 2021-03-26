@@ -15,7 +15,7 @@ namespace Lumiere
         {
             InitializeComponent();
             //MainPage = new LoginPage();
-            MainPage = new NavigationPage(new SendMoneyPage());
+            MainPage = new NavigationPage(new PayQr());
             database_location = databaseLocation;
 
             //to prevent user going to the loginpage whenver they pressed the back butoon in android
