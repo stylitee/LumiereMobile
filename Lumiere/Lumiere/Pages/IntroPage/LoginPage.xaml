@@ -32,6 +32,7 @@
                            HorizontalOptions="StartAndExpand"
                            WidthRequest="240"
                            Placeholder="         Phonenumber"
+                           TextColor="Black"
                            PlaceholderColor="Gray"
                            Margin="0,0,10,0"/>
                 </StackLayout>

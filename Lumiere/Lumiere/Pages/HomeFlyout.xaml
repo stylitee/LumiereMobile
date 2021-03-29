@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lumiere.Pages.HomeFlyout"
+             BackgroundColor="White"
              Title="Flyout">
   <StackLayout>
     <ListView x:Name="MenuItemsListView"
@@ -36,7 +37,7 @@
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
+            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" BackgroundColor="White">
                  
                             <Label VerticalOptions="FillAndExpand" 
                                        VerticalTextAlignment="Center"

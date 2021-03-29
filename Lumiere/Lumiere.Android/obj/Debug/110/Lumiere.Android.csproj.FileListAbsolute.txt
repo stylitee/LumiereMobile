@@ -587,3 +587,17 @@ C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\src\crc6480997b3ef81bf9b2\ZxingOverlayView.java
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\src\crc6480997b3ef81bf9b2\ZXingScannerFragment.java
 C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\src\crc6480997b3ef81bf9b2\ZXingSurfaceView.java
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\typemaps.x86.s
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\typemaps.x86_64.s
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\environment.x86.s
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\environment.x86_64.s
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\compressed_assemblies.x86.s
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\compressed_assemblies.x86_64.s
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\typemaps.x86.o
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\typemaps.x86_64.o
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\environment.x86.o
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\environment.x86_64.o
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\compressed_assemblies.x86.o
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\android\compressed_assemblies.x86_64.o
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\app_shared_libraries\x86\libxamarin-app.so
+C:\Users\balon\Desktop\Ecommerce\LumiereMobile\Lumiere\Lumiere.Android\obj\Debug\110\app_shared_libraries\x86_64\libxamarin-app.so

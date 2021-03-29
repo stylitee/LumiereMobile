@@ -18,8 +18,11 @@
                    CornerRadius="10"
                    Margin="20,50,20,5"
                    Padding="15,0"
+                   
                    BorderColor="Gray">
                 <Entry Placeholder="Full name"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"
                        x:Name="txtFullname" />    
             </Frame>
 
@@ -28,7 +31,9 @@
                    Padding="15,0"
                    BorderColor="Gray">
                 <Entry Placeholder="Phonenumber" 
-                       x:Name="txtPhoneNumber"/>
+                       x:Name="txtPhoneNumber"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"/>
             </Frame>
 
             <Frame CornerRadius="10"
@@ -36,7 +41,9 @@
                    Padding="15,0"
                    BorderColor="Gray">
                 <Entry Placeholder="Address"
-                       x:Name="txtAddress" />
+                       x:Name="txtAddress"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"/>
             </Frame>
 
             <Frame CornerRadius="10"
@@ -45,7 +52,9 @@
                    BorderColor="Gray">
                    <Entry Placeholder="Password"
                            IsPassword="True"
-                           x:Name="txtPassword" />
+                           x:Name="txtPassword"
+                          TextColor="Black"
+                       PlaceholderColor="Gray"/>
             </Frame>
 
             <Frame CornerRadius="10"
@@ -54,7 +63,9 @@
                    BorderColor="Gray">
                 <Entry Placeholder="Confirm Password"
                            IsPassword="True"
-                           x:Name="txtConfirmPassword" />
+                           x:Name="txtConfirmPassword"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"/>
             </Frame>
 
             <Frame CornerRadius="30"
@@ -72,7 +83,8 @@
 
             <StackLayout Orientation="Horizontal"
                          Margin="50,50,0,0">
-                <Label Text="Already have an acoount?"/>
+                <Label Text="Already have an acoount?"
+                       TextColor="Black"/>
                 <Label Text="Login here!"
                        TextColor="#0052D0">
                     <Label.GestureRecognizers>

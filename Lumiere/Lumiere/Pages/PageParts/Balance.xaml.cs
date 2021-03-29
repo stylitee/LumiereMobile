@@ -57,8 +57,9 @@ namespace Lumiere.Pages.PageParts
             SQLiteConnection conn = new SQLiteConnection(App.database_location);
             conn.CreateTable<Transaction>();
             var result = conn.Table<Transaction>().ToList();
-
-            if(result.Count() == 0)
+            
+            //conn.Query<Transaction>("Select * FROM Transaction WHERE user_id = ?", LoginPage.userEntered_ID);
+            if (result.Count() == 0)
             {
                 lblHistoryData.Text = "No History Data";
             }
@@ -146,13 +147,18 @@ namespace Lumiere.Pages.PageParts
         private void TapGestureRecognizer_Tapped_5(object sender, EventArgs e)
         {
             //gamingpins
-
+            Navigation.PushAsync(new GamingPins());
         }
 
         private void TapGestureRecognizer_Tapped_6(object sender, EventArgs e)
         {
             //payQR
             Navigation.PushAsync(new PayQr());
+        }
+
+        private void TapGestureRecognizer_Tapped_7(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Unavailable());
         }
     }
 }

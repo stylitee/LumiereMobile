@@ -33,7 +33,8 @@
                     </Image>
                     <Label Text="Cash In"
                            Margin="0,0,0,0"
-                           HorizontalOptions="Center"/>
+                           HorizontalOptions="Center"
+                           TextColor="Black"/>
 
                     <Image x:Name="imgSendMoney" 
                        HeightRequest="30"
@@ -43,7 +44,8 @@
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Send Money"
-                           Margin="0,0"/>
+                           Margin="0,0"
+                           TextColor="Black"/>
 
                 </StackLayout>
 
@@ -61,7 +63,8 @@
                     </Image>
                     <Label Text="Pay Bills"
                            Margin="0,0,0,0"
-                           HorizontalOptions="Center"/>
+                           HorizontalOptions="Center"
+                           TextColor="Black"/>
                     <Image x:Name="imgBuyLoad" 
                        HeightRequest="30"
                        Margin="0,20,0,0">
@@ -70,7 +73,8 @@
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Buy Load"
-                           Margin="0,0,0,0"/>
+                           Margin="0,0,0,0"
+                           TextColor="Black"/>
                 </StackLayout>
 
                 <StackLayout Margin="0,20,5,20" 
@@ -86,6 +90,7 @@
                     </Image>
                     <Label x:Name="lblBankTransfer"
                            Text="Bank Transfer"
+                           TextColor="Black"
                            Margin="0,0,0,0"/>
 
                     <Image x:Name="imgGamingPins" 
@@ -98,7 +103,8 @@
                     <Label x:Name="lblGamingPins"
                            Text="Gaming Pins"
                            HorizontalOptions="Center"
-                           Margin="0,0"/>
+                           Margin="0,0"
+                           TextColor="Black"/>
                     
                 </StackLayout>
 
@@ -114,6 +120,7 @@
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Pay QR"
+                           TextColor="Black"
                            Margin="0,0,0,0"
                            HorizontalOptions="Center"/>
 
@@ -122,10 +129,11 @@
                        HeightRequest="30"
                        Margin="0,20,0,0">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_7" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Label Text="Show More"
+                           TextColor="Black"
                            Margin="0,0,0,0"/>
 
                 </StackLayout>
@@ -151,7 +159,8 @@
                    BackgroundColor="#2D2D2D"
                    CornerRadius="10"
                    HasShadow="True"
-                   OutlineColor="#edeef7" 
+                   OutlineColor="#edeef7"
+                   VerticalOptions="FillAndExpand"
                    Padding="12">
                 
                 <StackLayout 
@@ -187,7 +196,8 @@
                            Text=""
                            HorizontalOptions="Center"/>
                     <Button Text="See all history"
-                            x:Name="btnSeeHistory"/>
+                            x:Name="btnSeeHistory"
+                            VerticalOptions="End"/>
                 </StackLayout>
             </Frame>
         </StackLayout>
