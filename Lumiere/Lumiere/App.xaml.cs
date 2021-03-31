@@ -14,12 +14,9 @@ namespace Lumiere
         public App(string databaseLocation)
         {
             InitializeComponent();
-            //MainPage = new LoginPage();
-            MainPage = new NavigationPage(new IntroPage());
+            MainPage = new AboutPage();
+            //MainPage = new NavigationPage(new IntroPage());
             database_location = databaseLocation;
-
-            //to prevent user going to the loginpage whenver they pressed the back butoon in android
-            //Application.Current.MainPage = new Home();
         }
 
         protected override void OnStart()

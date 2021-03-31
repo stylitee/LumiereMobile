@@ -197,7 +197,8 @@
                            HorizontalOptions="Center"/>
                     <Button Text="See all history"
                             x:Name="btnSeeHistory"
-                            VerticalOptions="End"/>
+                            VerticalOptions="End"
+                            Clicked="btnSeeHistory_Clicked"/>
                 </StackLayout>
             </Frame>
         </StackLayout>

@@ -4,12 +4,10 @@
              x:Class="Lumiere.Pages.AboutPage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Ecommerce project 2021"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="by Christian Balondo and Abegail Firme" />
-            
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

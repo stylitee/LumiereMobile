@@ -160,5 +160,10 @@ namespace Lumiere.Pages.PageParts
         {
             Navigation.PushAsync(new Unavailable());
         }
+
+        private void btnSeeHistory_Clicked(object sender, EventArgs e)
+        {
+            //BOBO
+        }
     }
 }

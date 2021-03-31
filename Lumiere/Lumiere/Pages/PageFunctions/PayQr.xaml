@@ -14,7 +14,8 @@
             <Label x:Name="lblResult" /> 
             <zxing:ZXingScannerView IsScanning="True" OnScanResult="ZXingScannerView_OnScanResult"/>
             <Button Text="Cancel"
-                    x:Name="btnCancel"/>
+                    x:Name="btnCancel"
+                    Clicked="btnCancel_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

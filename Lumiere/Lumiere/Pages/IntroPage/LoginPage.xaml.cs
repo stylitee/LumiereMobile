@@ -36,8 +36,8 @@ namespace Lumiere.Pages.IntroPage
             if (phoneNumber || passWord) { DisplayAlert("Ops", "Please complete all the fields", "Okay"); }
             else
             {
-                //try
-                //{
+                try
+                {
                     SQLiteConnection conn = new SQLiteConnection(App.database_location);
                     var result = conn.Query<Users>("Select * FROM Users WHERE phoneNumber = ?",txtPhoneNumber.Text);
                     foreach(var s in result)
@@ -58,13 +58,13 @@ namespace Lumiere.Pages.IntroPage
                         txtPassword.Text = "";
                     }
 
-                //}
-                //catch (Exception ex)
-                /*{
+                }
+                catch (Exception ex)
+                {
                     DisplayAlert("Ops", "Invalid credentials", "Try again");
                     txtPhoneNumber.Text = "";
                     txtPassword.Text = "";
-                }*/
+                }
             }
           
         }

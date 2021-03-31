@@ -15,6 +15,9 @@ namespace Lumiere.Pages
         public AboutPage()
         {
             InitializeComponent();
+            var assembly = typeof(AboutPage);
+
+            imgBalondo.Source = ImageSource.FromResource("Lumiere.Assets.Developers.Balondo.jpg", assembly);
         }
     }
 }

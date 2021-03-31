@@ -16,6 +16,8 @@
     <None Remove="Assets\CompanyPartnersImages\logo_smart.png" />
     <None Remove="Assets\CompanyPartnersImages\MINISTOP-LOGO.png" />
     <None Remove="Assets\CompanyPartnersImages\palawan.png" />
+    <None Remove="Assets\Developers\Balondo.jpg" />
+    <None Remove="Assets\Developers\Firme.jpg" />
     <None Remove="Assets\Fonts\Nobile-Bold.ttf" />
     <None Remove="Assets\Fonts\Nobile-BoldItalic.ttf" />
     <None Remove="Assets\Fonts\Nobile-Italic.ttf" />
@@ -46,6 +48,8 @@
     <EmbeddedResource Include="Assets\CompanyPartnersImages\logo_smart.png" />
     <EmbeddedResource Include="Assets\CompanyPartnersImages\MINISTOP-LOGO.png" />
     <EmbeddedResource Include="Assets\CompanyPartnersImages\palawan.png" />
+    <EmbeddedResource Include="Assets\Developers\Balondo.jpg" />
+    <EmbeddedResource Include="Assets\Developers\Firme.jpg" />
     <EmbeddedResource Include="Assets\Fonts\Nobile-Bold.ttf" />
     <EmbeddedResource Include="Assets\Fonts\Nobile-BoldItalic.ttf" />
     <EmbeddedResource Include="Assets\Fonts\Nobile-Italic.ttf" />
@@ -121,6 +125,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\PageFunctions\PhoneLoadInfo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\PageFunctions\QRAmountPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\PageFunctions\SendMoneyPage.xaml">
